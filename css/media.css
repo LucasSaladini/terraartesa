@@ -1,0 +1,32 @@
+@media only screen and (max-width: 991px) {
+  .subscribe {
+    background: #542a12;
+    height: 70px;
+    margin: -10px -16px !important;
+    width: 104%;
+  }
+
+  .subscribe a {
+    text-align: center;
+    margin-left: 20px !important;
+    margin-top: 0% !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #carouselExampleFade {
+    margin-top: 200px;
+  }
+  .subscribe {
+    background: #542a12;
+    height: 90px;
+    margin: -10px -16px !important;
+    width: 110%;
+  }
+
+  .subscribe a {
+    text-align: center;
+    margin-left: 0px !important;
+    margin-top: 0% !important;
+  }
+}

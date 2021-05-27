@@ -1,0 +1,36 @@
+body {
+  font-family: "Segoe1";
+}
+
+@font-face {
+  font-family: "Segoe1";
+  src: url("/fonts/segoe-ui.ttf") format("truetype"),
+    url("/fonts/segoe-ui.woff") format("woff"),
+    url("/fonts/segoe-ui.woff2") format("woff2");
+}
+
+.title_contact,
+.subtitle_contact {
+  color: #943735;
+}
+
+textarea {
+  resize: none !important;
+}
+
+.btn_contact {
+  color: #fff;
+  background: #612423;
+  border: none;
+  letter-spacing: 1px;
+  border-radius: 2px;
+}
+
+.btn_contact:hover {
+  color: #000;
+  background: #e07b74;
+  border: none;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  transition: all 0.5s ease;
+}

@@ -1,0 +1,111 @@
+body {
+  font-family: "Segoe1";
+}
+
+@font-face {
+  font-family: "Segoe1";
+  src: url("/fonts/segoe-ui.ttf") format("truetype"),
+    url("/fonts/segoe-ui.woff") format("woff"),
+    url("/fonts/segoe-ui.woff2") format("woff2");
+}
+
+.title_how_works,
+.subtitle_how_works {
+  color: #943735;
+}
+
+#team_products {
+  width: 100%;
+  border-radius: 15px;
+}
+
+#team_baskets {
+  background: #612423;
+  height: 500px;
+}
+
+.baskets_title {
+  color: #fff;
+}
+
+.baskets_text {
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.btn_stories {
+  background: #e07b74;
+  border: none;
+}
+
+.btn_stories a {
+  text-decoration: none;
+  color: #612423;
+}
+
+.baskets_title_flip,
+.baskets_subtitle_flip {
+  color: #943735;
+}
+
+.baskets_text_flip {
+  color: #612423;
+}
+
+.products_main {
+  background: #943735;
+  height: 250vh;
+}
+
+.product_details {
+  margin-top: 300px;
+}
+
+.product_title,
+.product_subtitle {
+  color: #fff;
+}
+
+.container {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 300px;
+}
+
+.container > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.description {
+  display: none;
+  position: absolute;
+}
+
+.container > div:hover {
+  transform: scale(1.1);
+}
+
+.container > div:hover > .description {
+  display: block;
+  text-align: center;
+}
+
+.container > div:hover > img {
+  opacity: 0.5;
+}
+
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #fff;
+}

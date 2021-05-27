@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #612423;
+}
+
+.nav-link,
+.navbar-brand {
+  color: white !important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #e6b9b8 !important;
+}
+
+.welcome {
+  margin-top: 100px !important;
+  margin-bottom: 70px !important;
+}

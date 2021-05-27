@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.btn-login {
+  background-color: #612423;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #e6b9b8;
+}

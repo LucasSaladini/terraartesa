@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Segoe1";
+  src: url("/fonts/segoe-ui.ttf") format("truetype"),
+    url("/fonts/segoe-ui.woff") format("woff"),
+    url("/fonts/segoe-ui.woff2") format("woff2");
+}
+
+body {
+  font-family: "Segoe1";
+}
+
+.title_about {
+  color: #612423;
+  font-family: "Segoe1";
+}
+
+.subtitle_about {
+  color: #612423;
+  font-family: "Segoe1";
+}
+
+#about {
+  background: #612423;
+  height: 500px;
+}
+
+#pic_about {
+  width: 100%;
+  border-radius: 15px;
+}
+
+#text_about {
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-family: "Segoe1";
+}
+
+.founders {
+  color: #612423;
+}
+
+.name {
+  color: #612423;
+}
+
+.name_text {
+  color: #612423;
+}
+
+#single_pic {
+  width: 70%;
+  border-radius: 50px;
+}

@@ -8,6 +8,7 @@
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/plans.css" />
     <link rel="stylesheet" href="css/media.css" />
     <link
       rel="stylesheet"
@@ -71,14 +72,211 @@
     </nav>
     <!-- End Navbar -->
 
-    <!---->
-    <h1>Planos</h1>
-    <!-- End-->
+    <!-- Plans-->
+    <h1 class="text-center pt-5 pb-3 plans_title">Planos</h1>
+    <h3 class="text-center plans_subtitle">Confira nossos planos</h3>
+    <h4 class="text-center plans_sub_subtitle">
+      Com certeza temos um que servirá pra você!
+    </h4>
+    <!-- End Plans -->
+
+    <!-- Plans with CTA -->
+    <section class="mx-auto">
+      <div class="row justify-content-center">
+        <div class="card-deck pt-5">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title text-center mx-auto">
+                Por quê um plano?
+              </div>
+              <div class="card-text text-center">
+                Vantagens de assinar um plano
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title text-center mx-auto">
+                Quantos planos temos?
+              </div>
+              <div class="card-text text-center">
+                Número de planos com os nomes
+              </div>
+              <button class="btn_cta_plans float-right mt-4">
+                <a href="#details_plans">Veja nossos planos</a>
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title text-center mx-auto">
+                Como funciona o plano?
+              </div>
+              <div class="card-text text-center">
+                Descrição de como funcionará os planos
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Plans with CTA -->
+
+    <!-- Plans Details -->
+    <section id="details_plans" class="detail_plans_section">
+      <h1 class="text-center plan_title pt-5">
+        Escolha o melhor plano pra você!
+      </h1>
+      <div class="row justify-content-center">
+        <div class="card-deck pt-5">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title text-center mx-auto">Plano 1</div>
+              <div class="card-text text-center">Descrição</div>
+              <button class="btn_cta_plans float-right mt-4">
+                <a href="#">Assinar</a>
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title text-center mx-auto">Plano 2</div>
+              <div class="card-text text-center">Descrição</div>
+              <button class="btn_cta_plans float-right mt-4">
+                <a href="#">Assinar</a>
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title text-center mx-auto">Plano 3</div>
+              <div class="card-text text-center">Descrição</div>
+              <button class="btn_cta_plans float-right mt-4">
+                <a href="#">Assinar</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Plans Details -->
+
+    <!-- Footer -->
+    <footer style="margin-top: 200px">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6">
+            <h2>Dúvidas Frequentes</h2>
+            <p>
+              Está com dúvidas? <a href="#">Clique aqui</a> e tire todas suas
+              dúvidas
+            </p>
+          </div>
+        </div>
+        <div class="d-flex bd-highlight">
+          <div class="p-2 flex-grow-1 bd-highlight">
+            <h2>Fale Conosco</h2>
+            <div class="row">
+              <img src="images/at.png" alt="" />
+              <p class="contact-footer">
+                <a href="mailto:terra.artesa@gmail.com"
+                  >terra.artesa@gmail.com</a
+                >
+              </p>
+            </div>
+            <div class="row">
+              <img src="images/logo-do-facebook.png" alt="" />
+              <p class="contact-footer">
+                <a href="https://www.facebook.com/terra.artesa/" target="_blank"
+                  >/terra.artesa</a
+                >
+              </p>
+            </div>
+            <div class="row">
+              <img src="images/instagram.png" alt="" />
+              <p class="contact-footer">
+                <a
+                  href="https://www.instagram.com/terra.artesaa/"
+                  target="_blank"
+                  >@terra_artesaa</a
+                >
+              </p>
+              <p></p>
+            </div>
+          </div>
+          <div class="p-2 bd-highlight susbcribe-container">
+            <h2>Não Perca Nenhuma Cesta</h2>
+            <div class="status"></div>
+            <form action="#" id="subscribeForm" method="post">
+              <input
+                type="text"
+                name=""
+                id="name"
+                class="form-control"
+                placeholder="Seu nome"
+                required
+              />
+              <span class="text-danger hidden" id="nameError"></span>
+              <input
+                type="email"
+                name=""
+                id="email"
+                class="form-control"
+                placeholder="Seu melhor e-mail"
+                required
+              />
+              <span class="text-danger hidden" id="emailError"></span>
+              <input type="button" id="subscribe" value="Inscrever-se" />
+            </form>
+          </div>
+        </div>
+        <!--<div class="row">
+            <div class="col-12 text-center">
+              <h3>Todos os direitos reservados</h3>
+              <div class="col-6">
+                <h3 class="row text-center mx-auto">
+                  2021 -
+                  <script>
+                    document.write(new Date().getFullYear())
+                  </script>
+                </h3>
+              </div>
+            </div>
+          </div>-->
+        <div class="row">
+          <div class="col-12 text-center">
+            <h5>Todos os direitos reservados</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <h5>
+              Terra Artesã 2021 -
+              <script>
+                document.write(new Date().getFullYear())
+              </script>
+            </h5>
+          </div>
+        </div>
+        <div class="col-12 mt-3">
+          <p class="text-center">
+            Feito com &#10084; por
+            <a href="https://portfolio.lucassaladini.vercel.app" target="_blank"
+              >Lucas Saladini</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Script -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
     ></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- End Script -->
   </body>
 </html>

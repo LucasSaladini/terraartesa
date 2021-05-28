@@ -1,0 +1,65 @@
+body {
+  font-family: "Segoe1";
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Segoe1";
+  src: url("/fonts/segoe-ui.ttf") format("truetype"),
+    url("/fonts/segoe-ui.woff") format("woff"),
+    url("/fonts/segoe-ui.woff2") format("woff2");
+}
+
+.plans_title,
+.plans_subtitle,
+.plans_sub_subtitle {
+  color: #612423;
+}
+
+.card-deck {
+  width: 80%;
+}
+
+.card {
+  background: #612423;
+}
+
+.card-title {
+  font-size: 23px;
+  color: #fff;
+}
+
+.card-text {
+  font-size: 17px;
+  color: #fff;
+}
+
+.btn_cta_plans {
+  background: #e6b9b8;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn_cta_plans:hover {
+  background: #fff;
+  transition: all 0.5s ease;
+}
+
+.btn_cta_plans a {
+  text-decoration: none;
+  color: #000;
+}
+
+#details_plans {
+  background: #e6b9b8;
+  margin-top: 20%;
+}
+
+.detail_plans_section {
+  margin-bottom: 100px;
+  height: 500px;
+}
+
+.plan_title {
+  color: #612423;
+}

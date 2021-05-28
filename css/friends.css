@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Segoe1";
+  src: url("/fonts/segoe-ui.ttf") format("truetype"),
+    url("/fonts/segoe-ui.woff") format("woff"),
+    url("/fonts/segoe-ui.woff2") format("woff2");
+}
+
+body {
+  font-family: "Segoe1";
+}
+
+.friends_title {
+  color: #612423;
+}
+
+.friends_subtitle {
+  color: #612423;
+}

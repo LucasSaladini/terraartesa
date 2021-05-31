@@ -17,6 +17,24 @@ nav {
   color: #e6b9b8 !important;
 }
 
+.list-group {
+  margin-top: 15%;
+  margin-left: 2%;
+}
+
+.active {
+  background: #612423 !important;
+}
+
+.list-group-item {
+  color: #612423;
+}
+
+.list-group-item:hover {
+  text-decoration: none !important;
+  color: #e07b74;
+}
+
 .welcome {
   margin-top: 100px !important;
   margin-bottom: 70px !important;

@@ -51,16 +51,15 @@
     <!-- End Navbar -->
 
     <section class="principal">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="list-group">
-                        <a href="" class="list-group-item active" ref_sys="sobre">A Terra Artesã</a>
-                        <a href="" class="list-group-item" ref_sys="cadastrar_equipe">Slideshow</a>
-                        <a href="" class="list-group-item" ref_sys="lista_equipe">O que prezamos</a>
-                        <a href="" class="list-group-item" ref_sys="lista_equipe">Conheça nossas histórias</a>
-                        <a href="" class="list-group-item" ref_sys="lista_equipe">Opções de compra</a>
-                        <a href="" class="list-group-item" ref_sys="lista_equipe">Rodapé</a>
+                    <div class="list-group col-2 px-0 fixed-top">
+                        <a href="#" class="list-group-item active" ref_sys="sobre">A Terra Artesã</a>
+                        <a href="#" class="list-group-item" ref_sys="slideshow">Slideshow</a>
+                        <a href="#" class="list-group-item" ref_sys="o_que_prezamos">O que prezamos</a>
+                        <a href="#" class="list-group-item" ref_sys="historias">Conheça nossas histórias</a>
+                        <a href="#" class="list-group-item" ref_sys="opcoes_de_compra">Opções de compra</a>
                     </div>
                 </div>
                 <div class="col-md-9">
@@ -71,7 +70,7 @@
                         <div class="card-body">
                             <form method="post">
                                 <div class="form-group">
-                                    <label for="email">Texto</label>
+                                    <label for="email"><b>Texto</b></label>
                                     <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="5">
 
                                     </textarea>
@@ -81,37 +80,37 @@
                             </form>
                         </div>
                     </div>
-                    <div id="cadastrar_equipe_section" class="card mt-5">
+                    <div id="slideshow_section" class="card mt-5">
                     <div class="card-header">
                             <h3 class="card-title">Slideshow</h3>
                         </div>
                         <div class="card-body">
                             <form method="post">
                                 <div class="form-group">
-                                    <label for="email">Imagens</label>
-                                    <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="5">
-
-                                    </textarea>
+                                    <label for="email"><b>Imagens</b></label><br>
+                                    <form action="img_slideshow.php" enctype="multipart/form-data" method="post">
+                                        <input type="file" name="image_slideshow[]" multiple/>
+                                    </form>
                                 </div>
                                 <input type="hidden" name="editar_sobre" value="">
                                 <button type="submit" name="acao" class="btn btn-success">Atualizar</button>
                             </form>
                         </div>
                     </div>
-                    <div id="cadastrar_equipe_section" class="card mt-5">
+                    <div id="o_que_prezamos_section" class="card mt-5">
                     <div class="card-header">
                             <h3 class="card-title">O que prezamos</h3>
                         </div>
                         <div class="card-body">
                             <form method="post">
                             <div class="form-group">
-                                    <label for="email">Imagens</label>
-                                    <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="5">
-
-                                    </textarea>
+                                    <label for="email"><b>Imagens</b></label><br>
+                                    <form action="img_prezamos.php" enctype="multipart/form-data" method="post">
+                                        <input type="file" name="image_prezamos[]"/>
+                                    </form>
                                 </div>
                                 <div class="form-group">
-                                    <label for="email">Texto</label>
+                                    <label for="email"><b>Texto</b></label>
                                     <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="5">
 
                                     </textarea>
@@ -121,22 +120,35 @@
                             </form>
                         </div>
                     </div>
-                    <div id="cadastrar_equipe_section" class="card mt-5">
+                    <div id="historias_section" class="card mt-5">
                     <div class="card-header">
                             <h3 class="card-title">Conheça nossas histórias</h3>
                         </div>
                         <div class="card-body">
                             <form method="post">
                             <div class="form-group">
-                                    <label for="email">Imagens</label>
-                                    <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="5">
-
-                                    </textarea>
+                                    <label for="email" class="pb-2"><b>Imagem 1</b></label><br>
+                                    <form action="img_cestas.php" enctype="multipart/form-data" method="post">
+                                        <input type="file" name="image_prezamos[]"/>
+                                    </form><br>
+                                    <label for="email" class="pb-2 pt-2"><b>Imagem 2</b></label><br>
+                                    <form action="img_cestas.php" enctype="multipart/form-data" method="post">
+                                        <input type="file" name="image_prezamos[]"/>
+                                    </form>
+                                    <label for="email" class="pb-2 pt-2"><b>Imagem 3</b></label>
+                                    <form action="img_cestas.php" enctype="multipart/form-data" method="post">
+                                        <input type="file" name="image_prezamos[]"/>
+                                    </form>
                                 </div>
                                 <div class="form-group">
-                                    <label for="email">Texto</label>
-                                    <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="5">
-
+                                    <label for="email" class="pb-2"><b>Texto 1</b></label>
+                                    <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="2">
+                                    </textarea>
+                                    <label for="email" class="pb-2 pt-2"><b>Texto 2</b></label>
+                                    <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="2">
+                                    </textarea>
+                                    <label for="email" class="pb-2 pt-2"><b>Texto 3</b></label>
+                                    <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="2">
                                     </textarea>
                                 </div>
                                 <input type="hidden" name="editar_sobre" value="">
@@ -144,41 +156,31 @@
                             </form>
                         </div>
                     </div>
-                    <div id="cadastrar_equipe_section" class="card mt-5">
+                    <div id="opcoes_de_compra_section" class="card mt-5 mb-5">
                     <div class="card-header">
                             <h3 class="card-title">Opções de compra</h3>
                         </div>
                         <div class="card-body">
                             <form method="post">
                                 <div class="form-group">
-                                    <label for="email">Texto</label>
-                                    <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="5">
-
-                                    </textarea>
+                                    <label for="email"><b>Plano 1</b></label><br>
+                                    <label for="">Nome do plano</label>
+                                    <input type="text" class="form-control col-3" name="nome_cesta1" id="" />
+                                    <label for="" class="mt-2">Valor</label>
+                                    <input type="text" class="form-control col-3" name="valor_cesta1" id="" />
                                 </div>
-                                <input type="hidden" name="editar_sobre" value="">
-                                <button type="submit" name="acao" class="btn btn-success">Atualizar</button>
-                            </form>
-                        </div>
-                    </div>
-                    <div id="cadastrar_equipe_section" class="card mt-5">
-                    <div class="card-header">
-                            <h3 class="card-title">Rodapé</h3>
-                        </div>
-                        <div class="card-body">
-                            <form method="post">
                                 <div class="form-group">
-                                    <label for="email">Texto</label>
-                                    <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="5">
-
-                                    </textarea>
+                                    <label for="email"><b>Plano 2</b></label><br>
+                                    <label for="">Nome do plano</label>
+                                    <input type="text" class="form-control col-3" name="nome_cesta2" id="">
+                                    <label for="" class="mt-2">Valor</label>
+                                    <input type="text" class="form-control col-3" name=valore_cesta2" id="" />
                                 </div>
                                 <input type="hidden" name="editar_sobre" value="">
                                 <button type="submit" name="acao" class="btn btn-success">Atualizar</button>
                             </form>
                         </div>
-                    </div>
-                    
+                    </div>                    
                 </div>
             </div>
         </div>
@@ -190,5 +192,46 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+    $(function(){
+        menuClick();
+        scrollItem();
+
+        function menuClick(){
+            $('#mainMenu a, .list-group a').click(function(){
+                $('#mainMenu li, .list-group a').removeClass('active');
+                //console.log('#mainMenu li[ref_sys='+$(this).attr('ref_sys')+']');
+                $('#mainMenu a[ref_sys='+$(this).attr('ref_sys')+']').parent().addClass('active');
+                $('.list-group a[ref_sys='+$(this).attr('ref_sys')+']').addClass('active');
+                return false;
+            })
+        }
+
+        function scrollItem(){
+            $('#mainMenu a, .list-group a').click(function(){
+                var ref = '#'+$(this).attr('ref_sys')+'_section';
+                var offset = $(ref).offset().top;
+                $('html, body').animate({'scrollTop':offset-60});
+                if($(window)[0].innerWidth <= 768){
+                    $('.navbar-toggler-icon').click();
+                }
+            })
+        }
+
+        $('button.delete-member').click(function(){
+            var id_membro = $(this).attr('id_membro');
+            var el = $(this).parent().parent();
+            $.ajax({
+                method: 'post',
+                data: {'id_membro':id_membro},
+                url: 'delete.php'
+            }).done(function(){
+                el.fadeOut(function(){
+                el.remove();
+                })
+            })
+        })
+    })
+  </script>
 </body>
 </html>

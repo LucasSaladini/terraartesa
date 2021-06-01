@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/dashboard.css">
+    <link rel="stylesheet" href="/css/dashboard-hw.css">
     <title>Terra Artesã Admin</title>
 </head>
 <body>
@@ -45,6 +45,92 @@
     </div>
     </nav>
     <!-- End Navbar -->
+
+    <section class="principal">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="list-group col-2 px-0 fixed-top">
+                        <a href="#" class="list-group-item active" ref_sys="presentation">Apresentação</a>
+                        <a href="#" class="list-group-item" ref_sys="baskets">Cestas</a>
+                        <a href="#" class="list-group-item" ref_sys="">Produtos</a>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div id="presentation_section" class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Apresentação</h3>
+                        </div>
+                        <div class="card-body">
+                            <form method="post" action="" id="first_section_hw">
+                                <div class="form-group">
+                                    <label for="img_hw"><b>Imagem</b></label><br>
+                                    <input type="file" name="image_hw[]"/><br>
+                                    <label for="text-hw"><b>Texto</b></label>
+                                    <textarea name="text-hw" class="form-control" style="resize: none" cols="30" rows="5">
+                                    </textarea>
+                                </div>
+                                <input type="hidden" name="editar_sobre" value="">
+                                <button type="submit" name="acao" class="btn btn-success">Atualizar</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="baskets_section" class="card mt-5">
+                    <div class="card-header">
+                            <h3 class="card-title">Cestas</h3>
+                        </div>
+                        <div class="card-body">
+                            <form method="post" id="" action="">
+                                <div class="form-group">
+                                    <label for="email"><b>Primeira Cesta</b></label><br>
+                                    <form action="img_slideshow.php" enctype="multipart/form-data" method="post">
+                                        <input type="file" name="image_slideshow[]" multiple/>
+                                    </form>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email"><b>Segunda Cesta</b></label><br>
+                                    <form action="img_slideshow.php" enctype="multipart/form-data" method="post">
+                                        <input type="file" name="image_slideshow[]" multiple/>
+                                    </form>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email"><b>Terceira Cesta</b></label><br>
+                                    <form action="img_slideshow.php" enctype="multipart/form-data" method="post">
+                                        <input type="file" name="image_slideshow[]" multiple/>
+                                    </form>
+                                </div>
+                                <input type="hidden" name="editar_sobre" value="">
+                                <button type="submit" name="acao" class="btn btn-success">Atualizar</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="o_que_prezamos_section" class="card mt-5">
+                    <div class="card-header">
+                            <h3 class="card-title">Produtos</h3>
+                        </div>
+                        <div class="card-body">
+                            <form method="post">
+                            <div class="form-group">
+                                    <label for="email"><b>Imagens</b></label><br>
+                                    <form action="img_prezamos.php" enctype="multipart/form-data" method="post">
+                                        <input type="file" name="image_prezamos[]"/>
+                                    </form>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email"><b>Texto</b></label>
+                                    <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="5">
+
+                                    </textarea>
+                                </div>
+                                <input type="hidden" name="editar_sobre" value="">
+                                <button type="submit" name="acao" class="btn btn-success">Atualizar</button>
+                            </form>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </section>
     
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"

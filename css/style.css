@@ -65,6 +65,8 @@ nav {
 .small-about-title {
   color: #943735;
   font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .small-about-text {
@@ -131,6 +133,8 @@ ol.carousel-indicators li {
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   color: #612423 !important;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .cta-cesta p {
@@ -239,6 +243,9 @@ ol.carousel-indicators li {
   width: 300px !important;
   font-family: "Segoe1" !important;
   letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .card-body {

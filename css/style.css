@@ -18,7 +18,7 @@ body {
 
 nav {
   background: #fff !important;
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
 }
 
 .nav-link {
@@ -64,12 +64,12 @@ nav {
 
 .small-about-title {
   color: #943735;
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
 }
 
 .small-about-text {
   color: #612423;
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   letter-spacing: 1px;
 }
@@ -128,7 +128,7 @@ ol.carousel-indicators li {
 .cta-cesta h2 {
   margin-top: -40%;
   color: #fff;
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   color: #612423 !important;
 }
@@ -136,7 +136,7 @@ ol.carousel-indicators li {
 .cta-cesta p {
   margin-top: 2%;
   color: #fff;
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   color: #612423 !important;
 }
@@ -184,7 +184,7 @@ ol.carousel-indicators li {
 #stamps h1 {
   color: #542a12;
   text-transform: uppercase;
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
 }
 
@@ -195,13 +195,13 @@ ol.carousel-indicators li {
 .stamp-title {
   font-weight: bold;
   color: #542a12;
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
 }
 
 .stamp-text {
   color: #542a12;
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
 }
 
@@ -209,7 +209,7 @@ ol.carousel-indicators li {
   background: #612423;
   height: 1000px;
   margin-top: 30vh !important;
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
 }
 
@@ -224,7 +224,7 @@ ol.carousel-indicators li {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 20vh;
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
 }
 
@@ -244,7 +244,7 @@ ol.carousel-indicators li {
 .card-body {
   font-size: 20px;
   color: #612423;
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
 }
 
@@ -281,7 +281,7 @@ ol.carousel-indicators li {
   margin-top: 10vh;
   text-transform: uppercase;
   font-size: 50px;
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -291,7 +291,7 @@ ol.carousel-indicators li {
   padding: 0 10px;
   color: #000;
   text-decoration: none;
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
 }
 
@@ -304,7 +304,7 @@ ol.carousel-indicators li {
 
 footer {
   color: #612423 !important;
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
 }
 

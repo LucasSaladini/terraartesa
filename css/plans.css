@@ -1,13 +1,6 @@
 body {
-  font-family: "Segoe1";
+  font-family: "Roboto", sans-serif;
   overflow-x: hidden;
-}
-
-@font-face {
-  font-family: "Segoe1";
-  src: url("/fonts/segoe-ui.ttf") format("truetype"),
-    url("/fonts/segoe-ui.woff") format("woff"),
-    url("/fonts/segoe-ui.woff2") format("woff2");
 }
 
 .plans_title,

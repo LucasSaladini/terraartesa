@@ -90,7 +90,7 @@ nav {
 }
 
 #carouselExampleFade {
-  background-color: #e6b9b8 !important;
+  background-color: #bc6b5a !important;
 }
 
 ol.carousel-indicators li {
@@ -101,7 +101,7 @@ ol.carousel-indicators li {
 }
 
 .cta-carousel {
-  background: #e07b74;
+  background: #e6b9b8;
   text-transform: uppercase;
   color: #612423;
   font-weight: bold;
@@ -132,7 +132,7 @@ ol.carousel-indicators li {
   color: #fff;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
-  color: #612423 !important;
+  color: #fff !important;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -142,7 +142,7 @@ ol.carousel-indicators li {
   color: #fff;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
-  color: #612423 !important;
+  color: #fff !important;
 }
 
 .flip-container {

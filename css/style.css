@@ -15,12 +15,7 @@ body {
   #612423
 */
 
-@font-face {
-  font-family: "Segoe1";
-  src: url("/fonts/segoe-ui.ttf") format("truetype"),
-    url("/fonts/segoe-ui.woff") format("woff"),
-    url("/fonts/segoe-ui.woff2") format("woff2");
-}
+/*font-family: 'Roboto', sans-serif;*/
 
 nav {
   background: #fff !important;

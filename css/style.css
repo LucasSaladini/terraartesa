@@ -56,6 +56,11 @@ nav {
   background: #e6b9b8;
 }
 
+#smallabout {
+  background-image: url("images/bg_index.png");
+  background-size: cover;
+}
+
 #smallabout img {
   height: 300px;
   margin-left: 40vh;

@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -153,6 +154,21 @@ ol.carousel-indicators li {
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   color: #612423 !important;
+}
+
+#stamps img {
+  width: 100px;
+  height: 100px;
+}
+
+#stamps_line2 .flipper {
+  margin-top: 50px;
+  margin-left: 140px;
+}
+
+#stamps_line2 img {
+  width: 100px;
+  height: 100px;
 }
 
 .flip-container {

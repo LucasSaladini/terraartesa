@@ -179,6 +179,49 @@
     </div>
     <!-- End Stories -->
 
+    <!-- Timeline -->
+    <section class="timeline">
+      <ul>
+        <li>
+          <div>
+            <time>2016</time>
+            Aliqua ea nulla eiusmod minim ex exercitation commodo excepteur.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>2017</time>
+            Aliqua ea nulla eiusmod minim ex exercitation commodo excepteur.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>2018</time>
+            Aliqua ea nulla eiusmod minim ex exercitation commodo excepteur.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>2019</time>
+            Aliqua ea nulla eiusmod minim ex exercitation commodo excepteur.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>2020</time>
+            Aliqua ea nulla eiusmod minim ex exercitation commodo excepteur.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>2021</time>
+            Aliqua ea nulla eiusmod minim ex exercitation commodo excepteur.
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- End Timeline -->
+
     <!-- FAQ -->
     <div class="row justify-content-center faq_main">
       <div class="panel-group col-6" id="accordion">
@@ -397,6 +440,29 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      function isElementInViewport(el) {
+        var rect = el.getBoundingClientRect()
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <=
+            (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <=
+            (window.innerWidth || document.documentElement.clientWidth)
+        )
+      }
+      var items = document.querySelectorAll(".timeline li")
+      function calbackFunc() {
+        for (var i = 0; i < items.length; i++) {
+          if (isElementInViewport(item[i])) {
+            items[i].classList.add("in-view")
+          }
+        }
+      }
+      window.addEventListener("load", calbackFunc)
+      window.addEventListener("scroll", calbackFunc)
+    </script>
     <!-- End Script -->
   </body>
 </html>

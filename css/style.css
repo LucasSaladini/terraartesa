@@ -156,6 +156,11 @@ ol.carousel-indicators li {
   color: #612423 !important;
 }
 
+#stamps,
+#stamps_line2 p {
+  font-size: 20px;
+}
+
 #stamps img {
   width: 100px;
   height: 100px;

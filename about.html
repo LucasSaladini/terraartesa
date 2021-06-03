@@ -180,46 +180,126 @@
     <!-- End Stories -->
 
     <!-- Timeline -->
-    <section class="timeline">
-      <ul>
-        <li>
-          <div>
-            <time>2016</time>
-            Aliqua ea nulla eiusmod minim ex exercitation commodo excepteur.
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="main-timeline">
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <span class="timeline-year">2015</span>
+                <div class="timeline-icon">
+                  <i class="fa fa-rocket" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h3 class="title">Título Ícone 1</h3>
+                  <p class="description">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <span class="timeline-year">2016</span>
+                <div class="timeline-icon">
+                  <i class="fa fa-users" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h3 class="title">Título Ícone 2</h3>
+                  <p class="description">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <span class="timeline-year">2017</span>
+                <div class="timeline-icon">
+                  <i class="fa fa-cog" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h3 class="title">Título Ícone 3</h3>
+                  <p class="description">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <span class="timeline-year">2018</span>
+                <div class="timeline-icon">
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h3 class="title">Título Ícone 4</h3>
+                  <p class="description">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <span class="timeline-year">2019</span>
+                <div class="timeline-icon">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h3 class="title">Título Ícone 5</h3>
+                  <p class="description">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <span class="timeline-year">2020</span>
+                <div class="timeline-icon">
+                  <i class="fa fa-apple" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h3 class="title">Título Ícone 6</h3>
+                  <p class="description">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <span class="timeline-year">2021</span>
+                <div class="timeline-icon">
+                  <i class="fa fa-edit" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h3 class="title">Título Ícone 7</h3>
+                  <p class="description">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s.
+                  </p>
+                </div>
+              </a>
+            </div>
           </div>
-        </li>
-        <li>
-          <div>
-            <time>2017</time>
-            Aliqua ea nulla eiusmod minim ex exercitation commodo excepteur.
-          </div>
-        </li>
-        <li>
-          <div>
-            <time>2018</time>
-            Aliqua ea nulla eiusmod minim ex exercitation commodo excepteur.
-          </div>
-        </li>
-        <li>
-          <div>
-            <time>2019</time>
-            Aliqua ea nulla eiusmod minim ex exercitation commodo excepteur.
-          </div>
-        </li>
-        <li>
-          <div>
-            <time>2020</time>
-            Aliqua ea nulla eiusmod minim ex exercitation commodo excepteur.
-          </div>
-        </li>
-        <li>
-          <div>
-            <time>2021</time>
-            Aliqua ea nulla eiusmod minim ex exercitation commodo excepteur.
-          </div>
-        </li>
-      </ul>
-    </section>
+        </div>
+      </div>
+    </div>
     <!-- End Timeline -->
 
     <!-- FAQ -->
@@ -440,29 +520,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/bootstrap.min.js"></script>
-    <script>
-      function isElementInViewport(el) {
-        var rect = el.getBoundingClientRect()
-        return (
-          rect.top >= 0 &&
-          rect.left >= 0 &&
-          rect.bottom <=
-            (window.innerHeight || document.documentElement.clientHeight) &&
-          rect.right <=
-            (window.innerWidth || document.documentElement.clientWidth)
-        )
-      }
-      var items = document.querySelectorAll(".timeline li")
-      function calbackFunc() {
-        for (var i = 0; i < items.length; i++) {
-          if (isElementInViewport(item[i])) {
-            items[i].classList.add("in-view")
-          }
-        }
-      }
-      window.addEventListener("load", calbackFunc)
-      window.addEventListener("scroll", calbackFunc)
-    </script>
+
     <!-- End Script -->
   </body>
 </html>

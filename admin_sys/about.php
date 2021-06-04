@@ -113,7 +113,7 @@
                             <!-- Confirmar necessidade -->
                         </div>
                     </div>
-                    <div class="card mt-5" id="faq_section">
+                    <div class="card mt-5 mb-5" id="faq_section">
                         <div class="card-header">
                             <h3 class="card-tile">FAQ</h3>
                         </div>

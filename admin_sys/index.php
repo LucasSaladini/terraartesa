@@ -72,12 +72,11 @@
                         <div class="card-body">
                             <form method="post">
                                 <div class="form-group">
-                                    <label for="email"><b>Texto</b></label>
+                                    <label for="sobre"><b>Texto</b></label>
                                     <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="5">
 
                                     </textarea>
                                 </div>
-                                <input type="hidden" name="editar_sobre" value="">
                                 <button type="submit" name="acao" class="btn btn-success">Atualizar</button>
                             </form>
                         </div>
@@ -89,12 +88,11 @@
                         <div class="card-body">
                             <form method="post">
                                 <div class="form-group">
-                                    <label for="email"><b>Imagens</b></label><br>
+                                    <label for="slideshow"><b>Imagens</b></label><br>
                                     <form action="img_slideshow.php" enctype="multipart/form-data" method="post">
                                         <input type="file" name="image_slideshow[]" multiple/>
                                     </form>
                                 </div>
-                                <input type="hidden" name="editar_sobre" value="">
                                 <button type="submit" name="acao" class="btn btn-success">Atualizar</button>
                             </form>
                         </div>
@@ -106,18 +104,17 @@
                         <div class="card-body">
                             <form method="post">
                             <div class="form-group">
-                                    <label for="email"><b>Imagens</b></label><br>
+                                    <label for="img_prezamos"><b>Imagens</b></label><br>
                                     <form action="img_prezamos.php" enctype="multipart/form-data" method="post">
                                         <input type="file" name="image_prezamos[]"/>
                                     </form>
                                 </div>
                                 <div class="form-group">
-                                    <label for="email"><b>Texto</b></label>
+                                    <label for="sobre"><b>Texto</b></label>
                                     <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="5">
 
                                     </textarea>
                                 </div>
-                                <input type="hidden" name="editar_sobre" value="">
                                 <button type="submit" name="acao" class="btn btn-success">Atualizar</button>
                             </form>
                         </div>
@@ -129,31 +126,30 @@
                         <div class="card-body">
                             <form method="post">
                             <div class="form-group">
-                                    <label for="email" class="pb-2"><b>Imagem 1</b></label><br>
+                                    <label for="img_cestas" class="pb-2"><b>Imagem 1</b></label><br>
                                     <form action="img_cestas.php" enctype="multipart/form-data" method="post">
                                         <input type="file" name="image_prezamos[]"/>
                                     </form><br>
-                                    <label for="email" class="pb-2 pt-2"><b>Imagem 2</b></label><br>
+                                    <label for="img_cestas" class="pb-2 pt-2"><b>Imagem 2</b></label><br>
                                     <form action="img_cestas.php" enctype="multipart/form-data" method="post">
                                         <input type="file" name="image_prezamos[]"/>
                                     </form>
-                                    <label for="email" class="pb-2 pt-2"><b>Imagem 3</b></label>
+                                    <label for="img_cestas" class="pb-2 pt-2"><b>Imagem 3</b></label>
                                     <form action="img_cestas.php" enctype="multipart/form-data" method="post">
                                         <input type="file" name="image_prezamos[]"/>
                                     </form>
                                 </div>
                                 <div class="form-group">
-                                    <label for="email" class="pb-2"><b>Texto 1</b></label>
+                                    <label for="sobre" class="pb-2"><b>Texto 1</b></label>
                                     <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="2">
                                     </textarea>
-                                    <label for="email" class="pb-2 pt-2"><b>Texto 2</b></label>
+                                    <label for="sobre" class="pb-2 pt-2"><b>Texto 2</b></label>
                                     <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="2">
                                     </textarea>
-                                    <label for="email" class="pb-2 pt-2"><b>Texto 3</b></label>
+                                    <label for="sobre" class="pb-2 pt-2"><b>Texto 3</b></label>
                                     <textarea name="sobre" class="form-control" style="resize: none" cols="30" rows="2">
                                     </textarea>
                                 </div>
-                                <input type="hidden" name="editar_sobre" value="">
                                 <button type="submit" name="acao" class="btn btn-success">Atualizar</button>
                             </form>
                         </div>
@@ -165,20 +161,19 @@
                         <div class="card-body">
                             <form method="post">
                                 <div class="form-group">
-                                    <label for="email"><b>Plano 1</b></label><br>
-                                    <label for="">Nome do plano</label>
+                                    <label for="plano1"><b>Plano 1</b></label><br>
+                                    <label for="plano1">Nome do plano</label>
                                     <input type="text" class="form-control col-3" name="nome_cesta1" id="" />
-                                    <label for="" class="mt-2">Valor</label>
+                                    <label for="valor_cesta1" class="mt-2">Valor</label>
                                     <input type="text" class="form-control col-3" name="valor_cesta1" id="" />
                                 </div>
                                 <div class="form-group">
-                                    <label for="email"><b>Plano 2</b></label><br>
-                                    <label for="">Nome do plano</label>
+                                    <label for="plano2"><b>Plano 2</b></label><br>
+                                    <label for="plano2">Nome do plano</label>
                                     <input type="text" class="form-control col-3" name="nome_cesta2" id="">
-                                    <label for="" class="mt-2">Valor</label>
+                                    <label for="valor_cesta2" class="mt-2">Valor</label>
                                     <input type="text" class="form-control col-3" name=valore_cesta2" id="" />
                                 </div>
-                                <input type="hidden" name="editar_sobre" value="">
                                 <button type="submit" name="acao" class="btn btn-success">Atualizar</button>
                             </form>
                         </div>

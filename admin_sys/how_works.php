@@ -19,22 +19,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul id="mainMenu" class="navbar-nav mr-auto navbar-dark">
             <li class="nav-item active">
-                <a class="nav-link" href="admin_sys/index.php" ref_sys="sobre">Página Inicial</a>
+                <a class="nav-link" href="admin_sys/index.php">Página Inicial</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="admin_sys/how_works.php" ref_sys="cadastrar_equipe">Como funciona</a>
+                <a class="nav-link" href="admin_sys/how_works.php">Como funciona</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="admin_sys/plans.php" ref_sys="lista_equipe">Planos</a>
+                <a class="nav-link" href="admin_sys/plans.php">Planos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="admin_sys/friends.php" ref_sys="lista_equipe">Nossos Amigos</a>
+                <a class="nav-link" href="admin_sys/friends.php">Nossos Amigos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="admin_sys/about.php" ref_sys="lista_equipe">Sobre Nós</a>
+                <a class="nav-link" href="admin_sys/about.php">Sobre Nós</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="admin_sys/contact.php" ref_sys="lista_equipe">Contato</a>
+                <a class="nav-link" href="admin_sys/contact.php">Contato</a>
             </li>
         </ul>
         <ul class="navbar-nav navbar-right">

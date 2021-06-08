@@ -20,3 +20,8 @@ body {
 .btn-login:hover {
   background-color: #e6b9b8;
 }
+
+.btn-info a {
+  color: #fff;
+  text-decoration: none;
+}

@@ -76,6 +76,7 @@
             <div class="form-group">
                 <input type="submit" value="Login" class="btn btn-login">
             </div>
+            <button class="btn btn-info"><a href="pw_recover.php">Esqueci a senha</a></button>
             </form>
         </div>
     </div>

@@ -7,6 +7,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+#logo img {
+  width: 400px;
+  height: 300px;
+}
+
 .btn-login {
   background-color: #612423;
   color: #fff;
@@ -14,4 +19,9 @@ body {
 
 .btn-login:hover {
   background-color: #e6b9b8;
+}
+
+.btn-info a {
+  color: #fff;
+  text-decoration: none;
 }

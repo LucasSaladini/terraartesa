@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: #612423;
+}
+
+.nav-link,
+.navbar-brand {
+  color: white !important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #e6b9b8 !important;
+}
+
+.list-group {
+  margin-top: 15%;
+  margin-left: 2%;
+}
+
+.active {
+  background: #612423 !important;
+}
+
+.list-group-item {
+  color: #612423;
+}
+
+.list-group-item:hover {
+  text-decoration: none !important;
+  color: #e07b74;
+}
+
+#presentation_section {
+  margin-top: 20%;
+}
+
+#first_section_hw input {
+  padding: 0 0 20px 0;
+}

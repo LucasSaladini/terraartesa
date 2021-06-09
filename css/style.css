@@ -139,7 +139,6 @@ ol.carousel-indicators li {
 
 .cta-cesta h2 {
   margin-top: -40%;
-  color: #fff;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   color: #612423 !important;
@@ -221,7 +220,7 @@ ol.carousel-indicators li {
 
 .stories {
   background: #612423;
-  height: 1000px;
+  height: 180vh;
   margin-top: 30vh !important;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
@@ -265,10 +264,32 @@ ol.carousel-indicators li {
   letter-spacing: 1px;
 }
 
+.know-more {
+  border: none;
+  background: #612423;
+  color: #fff;
+}
+
+.know-more:hover {
+  background: #e07b74;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.know-more a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.know-more a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
 .informs {
   background: #e6b9b8;
   padding: 5px;
-  color: #612423;
+  color: #000;
   font-size: 20px;
 }
 

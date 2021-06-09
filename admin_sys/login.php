@@ -62,7 +62,7 @@
     <h2 class="text-center">Login</h2>
     <div class="container-fluid mt-3">
         <div class="row justify-content-center align-items-center">
-            <form action="" method="post" class="col-4 text-center justify-content-center">
+            <form id="formLogin" method="post" class="col-4 text-center justify-content-center">
                 <div class="form-group">
                     <label>Usuário</label>
                     <input type="text" name="username" class="form-control " value="">
@@ -76,7 +76,7 @@
             <div class="form-group">
                 <input type="submit" value="Login" class="btn btn-login">
             </div>
-            <button class="btn btn-info"><a href="pw_recover.php">Esqueci a senha</a></button>
+            <button class="btn btn-info"><a href="enter_email.php">Esqueci a senha</a></button>
             </form>
         </div>
     </div>
@@ -88,6 +88,25 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      $('#loginForm').on('submit', function(e){
+        $.ajax({
+          type: 'POST',
+          url: "action.php",
+          data: $(this).serialize(),
+          dataType: "json",
+          success: function (respose) {
+            if(response.success == 1) {
+              location.href = "index.php";
+            } else {
+              $('#errorMessage').text(response.message);
+              $('#errorMessage').removeClass('hidden');
+            }
+          }
+        });
+        return false;
+      });
+    </script>
     <!-- End Script -->
 </body>
 </html>

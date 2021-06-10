@@ -708,6 +708,37 @@ ol.carousel-indicators li {
   text-decoration: none;
 }
 
+#informs h1 {
+  padding-top: 10%;
+}
+
+#informs h1, #informs p, #informs h4, #informs h2 {
+  color: #612423;
+}
+
+#informs p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.informs_btn {
+  background: #612423;
+  color: #fff !important;
+  font-weight: normal !important;
+}
+
+.informs_btn:hover {
+  background: #e07b74;
+  color: #000 !important;
+  text-decoration: none;
+  font-weight: normal !important;
+}
+
+.informs_btn a {
+  color: inherit;
+  text-decoration: none;
+}
+
 footer {
   color: #612423 !important;
   font-family: "Roboto", sans-serif;
@@ -959,20 +990,9 @@ ol.carousel-indicators li {
   letter-spacing: 1px;
 }
 
-.stories .card img {
-  width: 250px;
-  height: 250px;
-}
 
-.stories h1 {
-  padding-top: 100px;
-  font-size: 50px;
-  text-transform: uppercase;
-  color: #fff;
-  margin-bottom: 20vh;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
-}
+
+
 
 .card {
   border: none !important;
@@ -997,135 +1017,7 @@ ol.carousel-indicators li {
   letter-spacing: 1px;
 }
 
-.informs {
-  background: #e6b9b8;
-  padding: 5px;
-  color: #612423;
-  font-size: 20px;
-}
 
-.informs:hover {
-  text-decoration: none;
-  background: #f5f5f5;
-  color: #000;
-  transition: all 0.5s ease;
-}
 
-#plans .card-deck {
-  margin-top: 100px;
-}
 
-#plans .card-body,
-#plans .card {
-  background: #943735 !important;
-}
 
-#plans .card-title,
-#plans .card-text {
-  color: #fff;
-}
-
-.purchase-option {
-  color: #612423;
-  margin-top: 10vh;
-  text-transform: uppercase;
-  font-size: 50px;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
-  font-weight: bold;
-}
-
-.purchase-plan {
-  background: #fff;
-  padding: 0 10px;
-  color: #000;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
-}
-
-.purchase-plan:hover {
-  background: #e6b9b8;
-  color: #000;
-  transition: all 0.5s ease;
-  text-decoration: none;
-}
-
-#informs h1 {
-  padding-top: 10%;
-}
-
-#informs h1, #informs p, #informs h4, #informs h2 {
-  color: #612423;
-}
-
-#informs p {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.informs_btn {
-  background: #612423;
-  color: #fff !important;
-  font-weight: normal !important;
-}
-
-.informs_btn:hover {
-  background: #e07b74;
-  color: #000 !important;
-  text-decoration: none;
-  font-weight: normal !important;
-}
-
-.informs_btn a {
-  color: inherit;
-  text-decoration: none;
-}
-
-footer {
-  color: #612423 !important;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
-}
-
-footer img {
-  width: 30px;
-  height: 30px;
-  margin: 20px;
-}
-
-.contact-footer {
-  margin: 20px 5px;
-}
-
-.contact-footer a {
-  text-decoration: none;
-  color: #612423;
-}
-
-#subscribeForm input[type="text"] {
-  color: #542a12;
-  margin-bottom: 10px;
-}
-
-#subscribeForm input[type="email"] {
-  color: #542a12;
-  margin-bottom: 10px;
-}
-
-#subscribeForm input[type="button"] {
-  color: #fff;
-  background: #612423;
-  border: none;
-  letter-spacing: 1px;
-  border-radius: 2px;
-}
-
-#subscribeForm input[type="button"]:hover {
-  color: #000;
-  background: #e07b74;
-  border: none;
-  letter-spacing: 1px;
-  border-radius: 2px;
-  transition: all 0.5s ease;
-}

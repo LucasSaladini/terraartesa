@@ -59,6 +59,10 @@ body {
   color: #fff;
 }
 
+.product_title {
+  padding-top: 10%;
+}
+
 .container {
   display: grid;
   grid-gap: 40px;

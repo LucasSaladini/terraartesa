@@ -32,24 +32,17 @@ nav {
 
 #subscribe .nav-link:hover {
   background: #e6b9b8;
-  color: #fff !important;
 }
 
 .navbar li a {
   text-align: center;
 }
 
+
 .subscribe {
   background: #612423;
   height: 176px;
-  margin: -10px -15.5px !important;
   width: 200px;
-}
-
-.subscribe a {
-  margin-top: 20% !important;
-  margin-left: 30% !important;
-  color: #fff;
 }
 
 .subscribe:hover {
@@ -111,10 +104,11 @@ ol.carousel-indicators li {
 }
 
 .cta-carousel {
-  background: #e07b74;
+  background: transparent;
   text-transform: uppercase;
   color: #612423;
   font-weight: bold;
+  border: 3px solid #612423;
   margin-top: -200px;
   margin-left: -800px;
 }
@@ -420,11 +414,6 @@ nav {
   transition: all 0.5s ease;
 }
 
-#subscribe .nav-link:hover {
-  background: #e6b9b8;
-  color: #fff !important;
-}
-
 .navbar li a {
   text-align: center;
 }
@@ -500,20 +489,6 @@ ol.carousel-indicators li {
   box-shadow: 15px 15px 15px #612423 !important;
 }
 
-.cta-carousel {
-  background: #e6b9b8;
-  text-transform: uppercase;
-  color: #612423;
-  font-weight: bold;
-  margin-top: -200px;
-  margin-left: -800px;
-}
-
-.cta-carousel:hover {
-  background: #612423;
-  color: #fff;
-  transition: all 0.5s ease;
-}
 
 .carousel-item {
   height: 500px;
@@ -760,51 +735,6 @@ footer img {
   color: #612423;
 }
 
-#subscribeForm input[type="text"] {
-  color: #542a12;
-  margin-bottom: 10px;
-}
-
-#subscribeForm input[type="email"] {
-  color: #542a12;
-  margin-bottom: 10px;
-}
-
-#subscribeForm input[type="button"] {
-  color: #fff;
-  background: #612423;
-  border: none;
-  letter-spacing: 1px;
-  border-radius: 2px;
-}
-
-#subscribeForm input[type="button"]:hover {
-  color: #000;
-  background: #e07b74;
-  border: none;
-  letter-spacing: 1px;
-  border-radius: 2px;
-  transition: all 0.5s ease;
-}
-
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-body {
-  background: #fff;
-  /*Ou e4d96f*/
-}
-
-/*Paleta
-  #E07B74
-  #BC6B5A
-  #943735
-  #E6B9B8
-  #612423
-*/
-
 nav {
   background: #fff !important;
   font-family: "Roboto", sans-serif;
@@ -818,11 +748,6 @@ nav {
   background: #612423;
   color: #fff !important;
   transition: all 0.5s ease;
-}
-
-#subscribe .nav-link:hover {
-  background: #e6b9b8;
-  color: #fff !important;
 }
 
 .navbar li a {
@@ -898,21 +823,6 @@ ol.carousel-indicators li {
 .carousel-item img {
   border-radius: 10px;
   box-shadow: 15px 15px 15px #612423 !important;
-}
-
-.cta-carousel {
-  background: #e07b74;
-  text-transform: uppercase;
-  color: #612423;
-  font-weight: bold;
-  margin-top: -200px;
-  margin-left: -800px;
-}
-
-.cta-carousel:hover {
-  background: #612423;
-  color: #fff;
-  transition: all 0.5s ease;
 }
 
 .carousel-item {

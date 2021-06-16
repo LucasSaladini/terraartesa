@@ -159,6 +159,7 @@ ol.carousel-indicators li {
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   padding-top: 20px;
+  font-size: 20px;
 }
 
 .stamps {
@@ -177,7 +178,7 @@ ol.carousel-indicators li {
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   margin-top: 7%;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -197,7 +198,7 @@ ol.carousel-indicators li {
   font-size: 50px;
   text-transform: uppercase;
   color: #fff;
-  margin-bottom: 20vh;
+  margin-bottom: 5% !important;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
 }
@@ -232,6 +233,7 @@ ol.carousel-indicators li {
 
 .know-more {
   border: none;
+  border-radius: 5px;
   background: #612423;
   color: #fff;
 }
@@ -257,6 +259,7 @@ ol.carousel-indicators li {
   padding: 5px;
   color: #000;
   font-size: 20px;
+  border-radius: 5px;
 }
 
 .informs:hover {
@@ -297,6 +300,7 @@ ol.carousel-indicators li {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
+  border-radius: 5px;
 }
 
 .purchase-plan:hover {
@@ -399,7 +403,7 @@ nav {
 
 .subscribe a {
   margin-top: 20% !important;
-  margin-left: 30% !important;
+
   color: #fff;
 }
 

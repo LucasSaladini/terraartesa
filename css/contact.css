@@ -2,6 +2,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+#contactForm {
+  margin-left: 5%;
+}
+
 .title_contact,
 .subtitle_contact {
   color: #943735;
@@ -26,4 +30,42 @@ textarea {
   letter-spacing: 1px;
   border-radius: 2px;
   transition: all 0.5s ease;
+}
+
+.faq_main {
+  margin-left: 3%;
+}
+
+.faq_title,
+.faq_subtitle {
+  color: #612423;
+}
+
+.panel-title {
+  position: relative;
+  background: #943735;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 20px;
+}
+
+.panel-title::after {
+  content: "\f107";
+  color: #fff;
+  top: -2px;
+  position: absolute;
+  font-family: "FontAwesome";
+}
+
+.panel-title[aria-expanded="true"]::after {
+  content: "\f106";
+}
+
+.panel-body {
+  background: #612423;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  margin-top: -20px;
+  color: #fff;
+  margin-bottom: 20px;
 }

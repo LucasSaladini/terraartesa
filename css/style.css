@@ -38,7 +38,6 @@ nav {
   text-align: center;
 }
 
-
 .subscribe {
   background: #612423;
   height: 176px;
@@ -103,6 +102,11 @@ ol.carousel-indicators li {
   box-shadow: 15px 15px 15px #612423 !important;
 }
 
+.cta-cesta {
+  margin-left: 5%;
+  text-align: left;
+}
+
 .cta-carousel {
   background: transparent;
   text-transform: uppercase;
@@ -148,51 +152,13 @@ ol.carousel-indicators li {
   color: #612423 !important;
 }
 
-.flip-container {
-  width: 300px;
-  height: 200px;
-  perspective: 1000px;
-}
-
-.flipper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-container:hover .flipper {
-  transform: rotateY(180deg);
-}
-
-.front,
-.back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.front img {
-  height: 200px;
-  width: 200px;
-}
-
-.back {
-  transform: rotateY(180deg);
-}
-
-.back img {
-  height: 200px;
-  width: 200px;
-}
-
-#stamps h1 {
-  color: #542a12;
+#stamps_line1 h2,
+#stamps_line2 h2 {
+  color: #612423;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
+  padding-top: 20px;
 }
 
 .stamps {
@@ -206,16 +172,18 @@ ol.carousel-indicators li {
   letter-spacing: 1px;
 }
 
-.stamp-text {
+.text-stamps {
   color: #542a12;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
+  margin-top: 7%;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .stories {
   background: #612423;
-  height: 180vh;
-  margin-top: 30vh !important;
+  height: inherit !important;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
 }
@@ -226,13 +194,17 @@ ol.carousel-indicators li {
 }
 
 .stories h1 {
-  padding-top: 100px;
   font-size: 50px;
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 20vh;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
+}
+
+.card-deck {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .card {
@@ -473,10 +445,6 @@ nav {
   transition: all 0.5s ease;
 }
 
-#carouselExampleFade {
-  background-color: #bc6b5a !important;
-}
-
 ol.carousel-indicators li {
   background: #612423 !important;
   border-radius: 100% !important;
@@ -488,7 +456,6 @@ ol.carousel-indicators li {
   border-radius: 10px;
   box-shadow: 15px 15px 15px #612423 !important;
 }
-
 
 .carousel-item {
   height: 500px;
@@ -629,20 +596,6 @@ ol.carousel-indicators li {
   letter-spacing: 1px;
 }
 
-.informs {
-  background: #e6b9b8;
-  padding: 5px;
-  color: #612423;
-  font-size: 20px;
-}
-
-.informs:hover {
-  text-decoration: none;
-  background: #f5f5f5;
-  color: #000;
-  transition: all 0.5s ease;
-}
-
 #plans .card-deck {
   margin-top: 100px;
 }
@@ -681,19 +634,6 @@ ol.carousel-indicators li {
   color: #000;
   transition: all 0.5s ease;
   text-decoration: none;
-}
-
-#informs h1 {
-  padding-top: 10%;
-}
-
-#informs h1, #informs p, #informs h4, #informs h2 {
-  color: #612423;
-}
-
-#informs p {
-  font-weight: bold;
-  font-size: 20px;
 }
 
 .informs_btn {
@@ -735,129 +675,12 @@ footer img {
   color: #612423;
 }
 
-nav {
-  background: #fff !important;
-  font-family: "Roboto", sans-serif;
-}
-
-.nav-link {
-  font-size: 22px;
-}
-
-.nav-link:hover {
-  background: #612423;
-  color: #fff !important;
-  transition: all 0.5s ease;
-}
-
-.navbar li a {
-  text-align: center;
-}
-
-.subscribe {
-  background: #612423;
-  height: 176px;
-  margin: -10px -15.5px !important;
-  width: 200px;
-}
-
-.subscribe a {
-  margin-top: 20% !important;
-  margin-left: 30% !important;
-  color: #fff;
-}
-
-.subscribe:hover {
-  background: #e6b9b8;
-}
-
-#smallabout {
-  background-image: url("../images/bg_index.png");
-  background-size: contain;
-  width: 100%;
-}
-
-#smallabout img {
-  height: 300px;
-  margin-left: 40vh;
-}
-
-.small-about-title {
-  color: #943735;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.small-about-text {
-  color: #612423;
-  font-family: "Roboto", sans-serif;
-  font-size: 17px;
-  letter-spacing: 1px;
-}
-
-.cta-about {
-  background: #943735;
-  color: white;
-  width: 15%;
-  margin-bottom: 10%;
-}
-
-.cta-about:hover {
-  color: #000;
-  background: #e6b9b8;
-  transition: all 0.5s ease;
-}
-
-#carouselExampleFade {
-  background-color: #e6b9b8 !important;
-}
-
-ol.carousel-indicators li {
-  background: #612423 !important;
-  border-radius: 100% !important;
-  width: 2% !important;
-  height: 0.5px;
-}
-
-.carousel-item img {
-  border-radius: 10px;
-  box-shadow: 15px 15px 15px #612423 !important;
-}
-
-.carousel-item {
-  height: 500px;
-  z-index: 5;
-}
-
-.carousel-img {
-  width: 300px !important;
-  height: 300px !important;
-  margin-left: 70% !important;
-  /*border: 2px solid #542a12;*/
-}
-
-.cta-cesta h2 {
-  margin-top: -40%;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
-  color: #612423 !important;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
 .cta-cesta p {
   margin-top: 2%;
   color: #fff;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   color: #612423 !important;
-}
-
-#stamps_line1,
-#stamps_line2 p {
-  font-size: 20px;
 }
 
 #stamps_line2 {
@@ -869,39 +692,12 @@ ol.carousel-indicators li {
   height: 150px;
 }
 
-#stamps_line2 img {
-  width: 150px;
-  height: 150px;
-}
-
-#stamps h1 {
-  color: #542a12;
-  text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
-}
-
-.stamps {
-  height: 150px;
-}
-
-#stamps_line1, #stamps_line2 {
-  font-weight: bold;
-  color: #542a12;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
-}
-
 .stories {
   background: #612423;
   height: 180vh;
   margin-top: 30vh !important;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
-}
-
-.card {
-  border: none !important;
 }
 
 .card-title {
@@ -916,14 +712,19 @@ ol.carousel-indicators li {
   font-weight: bold !important;
 }
 
-.card-body {
-  font-size: 20px;
-  color: #612423;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
+#brasilidade {
+  background: #e6b9b8;
+  border-top: 2px solid #612324;
+  border-bottom: 2px solid #612324;
+  margin-top: 10%;
 }
 
+#brasilidade h1 {
+  text-transform: uppercase;
+  color: #612423;
+}
 
-
-
-
+#brasilidade p {
+  color: #612423;
+  margin-left: 15%;
+}

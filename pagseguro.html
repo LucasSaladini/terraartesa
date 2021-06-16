@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pagseguro.css">
+    <title>Teste PagSeguro</title>
+</head>
+<body>
+    <form action="controllers/controllerOrder.php" method="POST" id="purchaseForm" name="purchaseForm">
+        <input type="number" name="cardNumber" id="cardNumber">
+        <input type="text" name="tokenCard" id="tokenCard">
+        <input type="text" name="hashCard" id="hashCard">
+        <div class="cardBrand"></div>
+        <select name="installmentsQuantity" id="installmentsQuantity" class="display-none">
+            <option value="">Selecione</option>
+        </select>
+        <input type="text" name="installmentValue" id="installmentValue">
+        <input type="submit" value="Comprar" id="btn-purchase" name="btn-purchase">
+    </form>
+    <div class="credit-card">
+        <div class="title">Cartão de Crédito</div>
+    </div>
+    <div class="boleto">
+        <div class="title">Boleto</div>
+    </div>
+    <div class="debit">
+        <div class="title">Débito Online</div>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src= "https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js"></script>
+    <script src="js/pagseguro.js"></script>
+    <!-- End Scripts -->
+</body>
+</html>

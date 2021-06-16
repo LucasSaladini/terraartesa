@@ -18,7 +18,8 @@ body {
 }
 
 .baskets_title {
-  color: #fff;
+  color: #612423;
+  line-height: 50px;
 }
 
 .baskets_text {
@@ -43,6 +44,7 @@ body {
 
 .baskets_text_flip {
   color: #612423;
+  line-height: 50px;
 }
 
 .products_main {

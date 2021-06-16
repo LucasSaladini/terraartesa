@@ -2,10 +2,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.friends_title {
+.brasilidade_text {
   color: #612423;
-}
-
-.friends_subtitle {
-  color: #612423;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-size: 20px;
 }

@@ -20,12 +20,18 @@ body {
 #pic_about {
   width: 100%;
   border-radius: 15px;
+  margin-right: 3%;
 }
 
 #text_about {
   color: #fff;
   letter-spacing: 0.5px;
   font-family: "Roboto", sans-serif;
+}
+
+#text_about p {
+  margin-left: 7%;
+  margin-right: 5%;
 }
 
 .founders {

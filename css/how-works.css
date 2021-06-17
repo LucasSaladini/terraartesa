@@ -13,7 +13,7 @@ body {
 }
 
 #team_baskets {
-  background: #612423;
+  background: #e6b9b8;
   height: 500px;
 }
 
@@ -23,18 +23,23 @@ body {
 }
 
 .baskets_text {
-  color: #fff;
+  color: #612423;
   letter-spacing: 0.5px;
 }
 
 .btn_stories {
-  background: #e07b74;
-  border: none;
+  background: transparent;
+  text-transform: uppercase;
+  color: #612423;
+  font-weight: bold;
+  border: 3px solid #612423;
+  padding: 10px;
 }
 
-.btn_stories a {
+.btn_stories:hover {
+  background: #612423;
+  color: #fff;
   text-decoration: none;
-  color: #612423;
 }
 
 .baskets_title_flip,

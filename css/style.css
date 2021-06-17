@@ -152,10 +152,6 @@ ol.carousel-indicators li {
   color: #612423 !important;
 }
 
-/*#stamps_line1, #stamps_line2 {
-
-}*/
-
 #stamps_line1 h2,
 #stamps_line2 h2 {
   color: #612423;
@@ -181,7 +177,7 @@ ol.carousel-indicators li {
   color: #542a12;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
-  margin-top: 7%;
+  margin-top: 3%;
   font-size: 20px;
   font-weight: 500;
 }
@@ -685,7 +681,7 @@ footer img {
 }
 
 #stamps_line2 {
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 #stamps img {

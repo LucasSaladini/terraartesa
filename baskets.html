@@ -14,7 +14,7 @@
     />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/brasilidade.css" />
+    <link rel="stylesheet" href="css/plans.css" />
     <link rel="stylesheet" href="css/media.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -52,8 +52,9 @@
       sizes="16x16"
       href="images/favicon/favicon-16x16.png"
     />
+
     <link rel="manifest" href="images/favicon/site.webmanifest" />
-    <title>Terra Artesã - Nossos amigos</title>
+    <title>Terra Artesã - Nossos Planos</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -85,7 +86,7 @@
             <a class="nav-link" href="about.html">Sobre<br />Nós</a>
           </li>
           <li class="nav-item px-3">
-            <a class="nav-link" href="baskets.html">Nossas<br />Cestas</a>
+            <a class="nav-link" href="plans.html">Nossas<br />Cestas</a>
           </li>
           <li class="nav-item px-3">
             <a class="nav-link" href="brasilidade.html"
@@ -104,21 +105,155 @@
       </div>
     </nav>
     <!-- End Navbar -->
-    <div class="container-fluid mt-5">
-      <div class="row">
-        <div class="col-8 mx-auto">
-          <p class="text-center brasilidade_text">
-            Queremos que nossos produtos sejam acessíveis também para pessoas de
-            baixa renda. Definimos um modelo onde todos podem colaborar: os
-            fornecedores podem contribuir com unidades do seu produto, e os
-            clientes, com valores adicionais ao preço da cesta. Nós entregaremos
-            o número de cestas correspondentes às doações para instituições
-            parceiras, e manteremos toda nossa rede e clientes atualizados sobre
-            os beneficiários e arrecadação pelas nossas redes sociais.
+
+    <!-- CTA -->
+    <h1 class="title_how_works text-center pt-5 pb-2">Como funciona</h1>
+    <h3 class="text-center pb-5 subtitle_how_works">
+      Veja como funcionam nossas cestas
+    </h3>
+    <!-- End CTA -->
+
+    <!-- About Baskets  -->
+    <div class="container-fluid" id="team_baskets">
+      <div class="row align-items-center h-100">
+        <div class="col-4">
+          <img id="team_products" src="images/team_products.jpg" />
+        </div>
+        <div class="col-8">
+          <h2 class="text-center baskets_title pt-2">
+            Nossas cestas são temáticas
+          </h2>
+          <p class="text-center baskets_text">
+            Todas as nossas cestas têm uma história por trás. <br />Sempre
+            procuramos tem um propósito para elas e, com certeza, elas vão te
+            cativar!
           </p>
+          <div class="col text-center">
+            <button class="text-center baskets_title h-100 btn_stories">
+              <a href="#baskets">Clique aqui e conheça</a>
+            </button>
+          </div>
         </div>
       </div>
     </div>
+    <!-- End About Baskets -->
+
+    <!-- Baskets Details -->
+    <section id="baskets">
+      <div class="container-fluid" id="baskets">
+        <h1 class="text-center mt-5 baskets_title_flip">Edições Anteriores</h1>
+        <h5 class="text-center baskets_subtitle_flip">
+          Passe o mouse por cima ou clique nas fotos para ver mais detalhes
+        </h5>
+        <div class="row text-center pt-5">
+          <div class="flip-container col-4">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/eli.jpg" />
+                <h4 class="baskets_title">
+                  Cesta Eli <br />Edição Dia das Mães
+                </h4>
+              </div>
+              <div class="back">
+                <p class="text-center baskets_text_flip">
+                  Colar de resíduo de coco <br />Palmeiral Porta-cartão de fibra
+                  de bananeira Mulheres de Fibra <br />Chantilly corporal floral
+                  Swa Natural <br />Brinde: Ecobag Terra Artesã
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-container col-4">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/ventura.png" />
+                <h4 class="baskets_title">
+                  Cesta Ventura <br />Edição de Páscoa
+                </h4>
+              </div>
+              <div class="back">
+                <p class="text-center baskets_text_flip">
+                  Chocolate 65% cacau com nibs Sul da Bahia <br />Chocolate 70%
+                  cacau com embiriba Raros Fazedores de Chocolate
+                  <br />Chocolate branco com nibs de cupuaçu Kalapa
+                  <br />Cremístiko Kalapa <br />Amêndoas de cacau caramelizadas
+                  Perobas Cacau
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-container col-4">
+            <div class="flipper">
+              <div class="front">
+                <img src="images/nascente.jpg" />
+                <h4 class="baskets_title">
+                  Cesta Nascente <br />Edição de Natal
+                </h4>
+              </div>
+              <div class="back">
+                <p class="text-center baskets_text_flip">
+                  Farofa da Amazônia <br />Amêndoa de licuri COOPES
+                  <br />Granola de tapioca Manioca <br />Cauína Alquimista da
+                  Caatinga
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Baskets Details -->
+
+    <!-- Products Details-->
+    <section class="products_main">
+      <h1 class="product_details text-center product_title">Nossos produtos</h1>
+      <h3 class="text-center product_subtitle">
+        Conheça alguns dos produtos que vão nas nossas cestas
+      </h3>
+      <div class="container mt-5">
+        <div>
+          <img src="images/pipoca.jpg" alt="" />
+          <span class="description">Milho de pipoca Crioulo</span>
+        </div>
+        <div>
+          <img src="images/bolo.jpg" alt="" />
+          <span class="description">Mistura para bolo de babaçu com cacau</span>
+        </div>
+        <div>
+          <img src="images/umbu.jpg" alt="" />
+          <span class="description">Umbu</span>
+        </div>
+        <div>
+          <img src="images/farofa.jpg" alt="" />
+          <span class="description">Farofa da Amazônia</span>
+        </div>
+        <div>
+          <img src="images/granola.jpg" alt="" />
+          <span class="description">Granola de tapioca</span>
+        </div>
+        <div>
+          <img src="images/licuri.jpg" alt="" />
+          <span class="description">Castanha de licuri</span>
+        </div>
+        <div>
+          <img src="images/cauina.jpg" alt="" />
+          <span class="description">Cauína</span>
+        </div>
+        <div>
+          <img src="images/chocolate.jpg" alt="" />
+          <span class="description">Chocolate do Sul da Bahia</span>
+        </div>
+        <div>
+          <img src="images/kalapa.jpg" alt="" />
+          <span class="description">Kalapá</span>
+        </div>
+        <div>
+          <img src="images/chocolate_kalapa.jpg" alt="" />
+          <span class="description">Chocolate Branco</span>
+        </div>
+      </div>
+    </section>
+    <!-- End Products Details-->
 
     <!-- Footer -->
     <footer style="margin-top: 200px">
@@ -229,11 +364,13 @@
     </footer>
     <!-- End Footer -->
 
+    <!-- Script -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
     ></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- End Script -->
   </body>
 </html>

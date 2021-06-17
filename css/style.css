@@ -129,9 +129,9 @@ ol.carousel-indicators li {
 }
 
 .carousel-img {
-  width: 300px !important;
-  height: 300px !important;
-  margin-left: 70% !important;
+  width: 420px !important;
+  height: 420px !important;
+  margin-left: 60%;
   /*border: 2px solid #542a12;*/
 }
 
@@ -151,6 +151,10 @@ ol.carousel-indicators li {
   letter-spacing: 1px;
   color: #612423 !important;
 }
+
+/*#stamps_line1, #stamps_line2 {
+
+}*/
 
 #stamps_line1 h2,
 #stamps_line2 h2 {
@@ -466,13 +470,6 @@ ol.carousel-indicators li {
   z-index: 5;
 }
 
-.carousel-img {
-  width: 300px !important;
-  height: 300px !important;
-  margin-left: 70% !important;
-  /*border: 2px solid #542a12;*/
-}
-
 .cta-cesta h2 {
   margin-top: -40%;
   font-family: "Roboto", sans-serif;
@@ -718,8 +715,6 @@ footer img {
 
 #brasilidade {
   background: #e6b9b8;
-  border-top: 2px solid #612324;
-  border-bottom: 2px solid #612324;
   margin-top: 10%;
 }
 

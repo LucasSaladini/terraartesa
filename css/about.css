@@ -15,6 +15,7 @@ body {
 #about {
   background: #612423;
   height: 500px;
+  margin-top: 10%;
 }
 
 #pic_about {
@@ -27,11 +28,17 @@ body {
   color: #fff;
   letter-spacing: 0.5px;
   font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
 #text_about p {
   margin-left: 7%;
   margin-right: 5%;
+}
+
+#founders p,
+#founders h2 {
+  color: #612423;
 }
 
 .founders {

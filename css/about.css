@@ -36,6 +36,11 @@ body {
   margin-right: 5%;
 }
 
+#founders {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 #founders p,
 #founders h2 {
   color: #612423;
@@ -55,7 +60,7 @@ body {
 
 #single_pic {
   width: 70%;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 .main-timeline {

@@ -13,33 +13,27 @@ body {
 }
 
 #team_baskets {
-  background: #e6b9b8;
+  background: #612423;
   height: 500px;
 }
 
 .baskets_title {
-  color: #612423;
-  line-height: 50px;
+  color: #fff;
 }
 
 .baskets_text {
-  color: #612423;
+  color: #fff;
   letter-spacing: 0.5px;
 }
 
 .btn_stories {
-  background: transparent;
-  text-transform: uppercase;
-  color: #612423;
-  font-weight: bold;
-  border: 3px solid #612423;
-  padding: 10px;
+  background: #e07b74;
+  border: none;
 }
 
-.btn_stories:hover {
-  background: #612423;
-  color: #fff;
+.btn_stories a {
   text-decoration: none;
+  color: #612423;
 }
 
 .baskets_title_flip,
@@ -49,7 +43,6 @@ body {
 
 .baskets_text_flip {
   color: #612423;
-  line-height: 50px;
 }
 
 .products_main {
@@ -85,6 +78,7 @@ body {
 
 img {
   border-radius: 10px;
+  padding: 5px;
 }
 
 .description {

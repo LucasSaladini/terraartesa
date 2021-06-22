@@ -31,9 +31,6 @@ function listPaymentMethods() {
             $.each(data.paymentMethods.ONLINE_DEBIT.options, function(i, obj) {
                 $('.debit').append("<div><img src=https://stc.pagseguro.uol.com.br/"+obj.images.MEDIUM.path+">"+obj.name+"</div>");
             });
-        },
-        complete: function(data) {
-            getCardToken();
         }
     });
 }
@@ -48,6 +45,8 @@ $('#cardNumber').on('keyup', function() {
             cardBin: cardNumber,
             success: function(response) {
                 var brandImg = response.brand.name;
+                $('#cardBrand').val(brandImg);
+                console.log(brandImg);
                 $('.cardBrand').html("<img src=https://stc.pagseguro.uol.com.br/public/img/payment-methods-flags/68x30/"+brandImg+".png />");
                 getInstallments(brandImg);
             },
@@ -65,39 +64,45 @@ function getInstallments(Brand) {
         amount: Amount,
         maxInstallmentNoInterest: 2,
         brand: Brand,
-        success: function(response) {
-            $.each(response.installments, function(i, obj) {
-                $.each(obj, function(i2, obj2) {
-                    var numberValue = obj2.installmentAmount;
-                    var number = "R$ "+numberValue.toFixed(2).replace(".", ",");
-                    var numberInstallments = numberValue.toFixed(2);
-                    $('#installmentsQuantity').show().append("<option value='"+obj2.quantity+"' label='"+numberInstallments+"'>"+obj2.quantity+" parcelas de "+number+"</option>");                });
+        success: function(response){
+            $.each(response.installments, function(i,obj) {
+                $.each(obj, function(i2,obj2) {
+                    var NumberValue = obj2.installmentAmount;
+                    var Number = "R$ "+NumberValue.toFixed(2).replace(".",",");
+                    var NumberInstallments = NumberValue.toFixed(2);
+                    $('#installmentQuantity').show().append("<option value='"+NumberInstallments+"'>"+obj2.quantity+" parcela(s) de "+Number+"</option>");
+                });
             });
         }
     });
 }
 
 //Get installment value
-$('#installmentsQuantity').on('change',function() {
-    var valueSelected = document.getElementById('installmentsQuantity');
-    $('#installmentValue').val(valueSelected.options[valueSelected.selectedIndex].label); 
+$('#installmentQuantity').on('change',function() {
+    var valueSelected = document.getElementById('installmentQuantity');
+    $('#installmentValue').val(valueSelected.options[valueSelected.selectedIndex].value); 
 });
+
+//Get token card
+$('#cvv').on('blur', function() {
+    getCardToken();
+})
 
 //Get card token
 function getCardToken() {
     PagSeguroDirectPayment.createCardToken({
-        cardNumber: '4111111111111111',
-        brand: 'visa',
-        cvv: '013',
-        expirationMonth: '12',
-        expirationYear: '2026',
+        cardNumber: $('#cardNumber').val(), //4111111111111111
+        brand: $('#cardBrand').val(), //visa
+        cvv: $('#cvv').val(), //013
+        expirationMonth: $('#month').val(),//12
+        expirationYear: $('#year').val(),//2026
         success: function(response) {
             $('#cardToken').val(response.card.token);
         }
     });
 }
 
-$('#buy').on('click', function(event) {
+$('#btn-Buy').on('click', function(event) {
     event.preventDefault();
     PagSeguroDirectPayment.onSenderHashReady(function(response) {
         $('#cardHash').val(response.senderHash);

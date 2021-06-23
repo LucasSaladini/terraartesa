@@ -76,6 +76,7 @@ img {
 
 .description {
   position: relative;
+  color: #612423;
 }
 
 .main-timeline {
@@ -144,7 +145,7 @@ img {
 
 .main-timeline .timeline-year {
   color: #65c7d0;
-  font-size: 50px;
+  font-size: 42px;
   font-weight: 600;
   display: inline-block;
   transform: translatey(-50%);

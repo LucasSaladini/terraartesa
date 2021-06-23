@@ -48,15 +48,21 @@ nav {
   background: #e6b9b8;
 }
 
-#smallabout {
+#bg img {
   background-image: url("../images/bg_index.png");
   background-size: contain;
   width: 100%;
+  margin-top: -65%;
+  height: 100%;
 }
 
-#smallabout img {
-  height: 300px;
-  margin-left: 40vh;
+#bg-after img {
+  background-image: url("../images/bg_index.png");
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  transform: rotateX(180deg) rotateY(180deg);
+  margin-top: -1%;
 }
 
 .small-about-title {
@@ -88,6 +94,7 @@ nav {
 
 #carouselExampleFade {
   background-color: #e6b9b8 !important;
+  margin-top: -5.2%;
 }
 
 ol.carousel-indicators li {
@@ -430,17 +437,6 @@ nav {
 
 .subscribe:hover {
   background: #e6b9b8;
-}
-
-#smallabout {
-  background-image: url("../images/bg_index.png");
-  background-size: contain;
-  width: 100%;
-}
-
-#smallabout img {
-  height: 300px;
-  margin-left: 40vh;
 }
 
 .small-about-title {

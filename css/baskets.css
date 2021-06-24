@@ -17,14 +17,14 @@ body {
   height: 500px;
 }
 
-.baskets_title {
+#team_baskets h3,
+#team_baskets p {
   color: #612423;
-  line-height: 50px;
 }
 
-.baskets_text {
+.baskets_title {
   color: #612423;
-  letter-spacing: 0.5px;
+  margin-top: 3%;
 }
 
 .btn_stories {
@@ -81,7 +81,7 @@ img {
 
 .main-timeline {
   font-family: "Roboto", sans-serif;
-  margin-top: 30%;
+  margin-top: 10%;
   padding: 20px 0;
   position: relative;
 }

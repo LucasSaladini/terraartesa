@@ -14,12 +14,22 @@ body {
 
 #team_baskets {
   background: #e6b9b8;
-  height: 500px;
+  height: inherit;
+}
+
+#team_baskets h3:first-child {
+  margin-top: 10%;
+}
+
+#team_baskets {
+  padding-bottom: 5%;
 }
 
 #team_baskets h3,
 #team_baskets p {
   color: #612423;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .baskets_title {
@@ -52,24 +62,6 @@ body {
   line-height: 50px;
 }
 
-.products_main {
-  background: #943735;
-  height: 250vh;
-}
-
-.product_details {
-  margin-top: 300px;
-}
-
-.product_title,
-.product_subtitle {
-  color: #fff;
-}
-
-.product_title {
-  padding-top: 10%;
-}
-
 img {
   border-radius: 10px;
 }
@@ -81,7 +73,7 @@ img {
 
 .main-timeline {
   font-family: "Roboto", sans-serif;
-  margin-top: 10%;
+  margin-top: 5%;
   padding: 20px 0;
   position: relative;
 }

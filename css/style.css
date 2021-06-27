@@ -21,7 +21,7 @@ nav {
 }
 
 .nav-link {
-  font-size: 22px;
+  font-size: 21px;
 }
 
 .nav-link:hover {
@@ -70,6 +70,7 @@ nav {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 35px;
 }
 
 .small-about-text {
@@ -104,13 +105,8 @@ ol.carousel-indicators li {
   height: 0.5px;
 }
 
-.carousel-item img {
-  border-radius: 10px;
-  box-shadow: 15px 15px 15px #612423 !important;
-}
-
 .cta-cesta {
-  margin-left: 5%;
+  margin-left: 7%;
   text-align: left;
 }
 
@@ -121,7 +117,7 @@ ol.carousel-indicators li {
   font-weight: bold;
   border: 3px solid #612423;
   margin-top: 10%;
-  margin-left: -800px;
+  margin-left: -390%;
 }
 
 .cta-carousel:hover {
@@ -136,29 +132,36 @@ ol.carousel-indicators li {
 }
 
 .carousel-img {
-  width: 420px !important;
-  height: 420px !important;
+  width: 350px !important;
+  height: 350px !important;
   margin-left: 60%;
   /*border: 2px solid #542a12;*/
 }
 
 .cta-cesta h2 {
-  margin-top: -60% !important;
+  margin-top: -50% !important;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   color: #612423 !important;
-  text-transform: uppercase;
   font-weight: bold;
   margin-left: 15%;
 }
 
 .cta-cesta p {
-  margin-top: 2%;
+  margin-top: 5%;
   color: #fff;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   color: #612423 !important;
   margin-left: 15%;
+}
+
+.carousel-caption a {
+  margin-top: -120% !important;
+}
+
+#stamps {
+  margin-top: -37%;
 }
 
 #stamps_line1 h2,
@@ -187,7 +190,7 @@ ol.carousel-indicators li {
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   margin-top: 3%;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 500;
 }
 
@@ -204,7 +207,8 @@ ol.carousel-indicators li {
 }
 
 .stories h1 {
-  font-size: 50px;
+  margin-top: 5%;
+  font-size: 35px;
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 1% !important;
@@ -213,7 +217,7 @@ ol.carousel-indicators li {
 }
 
 .stories_subtitle {
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
   font-weight: lighter;
   margin-bottom: 1% !important;
@@ -226,8 +230,8 @@ ol.carousel-indicators li {
 }
 
 .img_stories {
-  height: 350px !important;
-  width: 350px !important;
+  height: 250px !important;
+  width: 250px !important;
 }
 
 .card-deck {
@@ -303,37 +307,40 @@ ol.carousel-indicators li {
 
 #plans .card-body,
 #plans .card {
-  background: #943735 !important;
+  background: #e6b9b8 !important;
 }
 
 #plans .card-title,
 #plans .card-text {
-  color: #fff;
+  color: #612423;
 }
 
 .purchase-option {
   color: #612423;
   margin-top: 10vh;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 35px;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   font-weight: bold;
 }
 
 .purchase-plan {
-  background: #fff;
+  background: #612423;
   padding: 0 10px;
-  color: #000;
+  color: #fff;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   border-radius: 5px;
+  background: transparent;
+  color: #612423;
+  border: 3px solid #612423;
 }
 
 .purchase-plan:hover {
-  background: #e6b9b8;
-  color: #000;
+  background: #612423;
+  color: #fff;
   transition: all 0.5s ease;
   text-decoration: none;
 }
@@ -386,38 +393,6 @@ footer img {
   transition: all 0.5s ease;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background: #fff;
-  font-family: "Roboto", sans-serif;
-}
-
-/*Paleta
-  #E07B74
-  #BC6B5A
-  #943735
-  #E6B9B8
-  #612423
-*/
-
-nav {
-  background: #fff !important;
-  font-family: "Roboto", sans-serif;
-}
-
-.nav-link {
-  font-size: 22px;
-}
-
-.nav-link:hover {
-  background: #612423;
-  color: #fff !important;
-  transition: all 0.5s ease;
-}
-
 .navbar li a {
   text-align: center;
 }
@@ -431,19 +406,11 @@ nav {
 
 .subscribe a {
   margin-top: 20% !important;
-
   color: #fff;
 }
 
 .subscribe:hover {
   background: #e6b9b8;
-}
-
-.small-about-title {
-  color: #943735;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 .small-about-text {
@@ -471,33 +438,6 @@ ol.carousel-indicators li {
   border-radius: 100% !important;
   width: 2% !important;
   height: 0.5px;
-}
-
-.carousel-item img {
-  border-radius: 10px;
-  box-shadow: 15px 15px 15px #612423 !important;
-}
-
-.carousel-item {
-  height: 500px;
-  z-index: 5;
-}
-
-.cta-cesta h2 {
-  margin-top: -40%;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
-  color: #612423 !important;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.cta-cesta p {
-  margin-top: 2%;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
-  color: #fff !important;
 }
 
 .flip-container {
@@ -569,16 +509,6 @@ ol.carousel-indicators li {
   height: 250px;
 }
 
-.stories h1 {
-  padding-top: 100px;
-  font-size: 50px;
-  text-transform: uppercase;
-  color: #fff;
-  margin-bottom: 20vh;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
-}
-
 .card {
   border: none !important;
 }
@@ -592,27 +522,6 @@ ol.carousel-indicators li {
 
 #plans .card-deck {
   margin-top: 100px;
-}
-
-#plans .card-body,
-#plans .card {
-  background: #943735 !important;
-}
-
-.purchase-plan {
-  background: #fff;
-  padding: 0 10px;
-  color: #000;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
-}
-
-.purchase-plan:hover {
-  background: #e6b9b8;
-  color: #000;
-  transition: all 0.5s ease;
-  text-decoration: none;
 }
 
 .informs_btn {
@@ -653,18 +562,31 @@ ol.carousel-indicators li {
 
 #brasilidade p {
   color: #612423;
-  margin-left: 15%;
   font-size: 18px;
 }
 
 #brasilidade img {
-  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  margin-left: 15%;
+}
+
+.brasilidade_btn {
+  margin-top: 12%;
 }
 
 footer {
   color: #612423 !important;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
+}
+
+footer h2 {
+  font-size: 20px;
+}
+
+footer p {
+  font-size: 15px;
 }
 
 footer img {
@@ -680,14 +602,6 @@ footer img {
 .contact-footer a {
   text-decoration: none;
   color: #612423;
-}
-
-.cta-cesta p {
-  margin-top: 2%;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
-  color: #612423 !important;
 }
 
 #stamps_line2 {

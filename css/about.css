@@ -20,8 +20,8 @@ body {
 
 #pic_about {
   width: 100%;
-  border-radius: 15px;
   margin-right: 3%;
+  margin-left: 15%;
 }
 
 #text_about {
@@ -60,5 +60,4 @@ body {
 
 #single_pic {
   width: 70%;
-  border-radius: 10px;
 }

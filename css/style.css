@@ -219,10 +219,9 @@ ol.carousel-indicators li {
 .stories_subtitle {
   font-size: 18px;
   color: #fff;
-  font-weight: lighter;
+
   margin-bottom: 1% !important;
   font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
 }
 
 #stories .card-text {
@@ -349,16 +348,21 @@ footer {
   color: #612423 !important;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
+  margin-top: 10%;
 }
 
 footer img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   margin: 20px;
 }
 
+footer h5 {
+  font-size: 15px;
+}
+
 .contact-footer {
-  margin: 20px 5px;
+  margin: 17px 5px;
 }
 
 .contact-footer a {
@@ -587,21 +591,6 @@ footer h2 {
 
 footer p {
   font-size: 15px;
-}
-
-footer img {
-  width: 30px;
-  height: 30px;
-  margin: 20px;
-}
-
-.contact-footer {
-  margin: 20px 5px;
-}
-
-.contact-footer a {
-  text-decoration: none;
-  color: #612423;
 }
 
 #stamps_line2 {

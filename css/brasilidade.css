@@ -12,7 +12,7 @@ body {
 .gallery {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(17, 5vw);
+  grid-template-rows: repeat(12, 5vw);
   grid-gap: 1.5rem;
   margin-left: 3%;
   margin-right: 3%;
@@ -51,7 +51,7 @@ body {
   grid-column-start: 5;
   grid-column-end: 9;
   grid-row-start: 1;
-  grid-row-end: 6;
+  grid-row-end: 5;
 
   /** Alternative Syntax **/
   /* grid-column: 5 / span 4;
@@ -73,7 +73,7 @@ body {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 9;
-  grid-row-end: 17;
+  grid-row-end: 12;
 
   /** Alternative Syntax **/
   /* grid-column: 1 / span 4; */
@@ -83,12 +83,18 @@ body {
 .gallery__item--6 {
   grid-column-start: 5;
   grid-column-end: 9;
-  grid-row-start: 6;
-  grid-row-end: 17;
+  grid-row-start: 5;
+  grid-row-end: 12;
 
   /** Alternative Syntax **/
   /* grid-column: 5 / span 4; */
   /* grid-row: 6 / span 3; */
+}
+
+.gallery__item--5 img {
+  object-fit: cover;
+  height: 230px;
+  object-position: -10% 70%;
 }
 
 .institutions {

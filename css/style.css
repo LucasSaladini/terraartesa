@@ -3,7 +3,11 @@ html {
 }
 
 body {
-  background: #fff;
+  background-image: url("/images/Fundo.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
   /*Ou e4d96f*/
 }
 

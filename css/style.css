@@ -8,7 +8,6 @@ body {
   background-position: center;
   background-repeat: repeat-y;
   background-size: cover;
-  /*Ou e4d96f*/
 }
 
 /*Paleta
@@ -56,7 +55,7 @@ nav {
   background-image: url("../images/bg_index.png");
   background-size: contain;
   width: 100%;
-  margin-top: -65%;
+  margin-top: -24%;
   height: 100%;
 }
 
@@ -64,7 +63,6 @@ nav {
   background-image: url("../images/bg_index.png");
   background-size: contain;
   width: 100%;
-  height: 100%;
   transform: rotateX(180deg) rotateY(180deg);
   margin-top: -1%;
 }
@@ -139,7 +137,6 @@ ol.carousel-indicators li {
   width: 350px !important;
   height: 350px !important;
   margin-left: 60%;
-  /*border: 2px solid #542a12;*/
 }
 
 .cta-cesta h2 {
@@ -165,7 +162,7 @@ ol.carousel-indicators li {
 }
 
 #stamps {
-  margin-top: -37%;
+  margin-top: -30%;
 }
 
 #stamps_line1 h2,
@@ -180,13 +177,6 @@ ol.carousel-indicators li {
 
 .stamps {
   height: 150px;
-}
-
-.stamp-title {
-  font-weight: bold;
-  color: #542a12;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
 }
 
 .text-stamps {
@@ -493,6 +483,7 @@ ol.carousel-indicators li {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
+  margin-top: 40%;
 }
 
 .stamps {

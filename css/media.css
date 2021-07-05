@@ -1,3 +1,9 @@
+@media only screen and (max-width: 735px) {
+  .cta-about {
+    width: auto;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .subscribe {
     background: #542a12;
@@ -28,5 +34,59 @@
     text-align: center;
     margin-left: 0px !important;
     margin-top: 0% !important;
+  }
+
+  #bg img{
+    margin-bottom: -126% !important;
+    position: relative;
+  }
+
+  .carousel-img {
+    width: 250px !important;
+    height: 250px !important;
+    margin-left: 10% !important;
+    margin-top: 20% !important;
+  }
+
+  .cta-cesta {
+    margin-top: 20%;
+  }
+
+  .cta-cesta h2 {
+    font-size: 17px;
+    padding-top: 7% !important;
+    width: 150% !important;
+    text-align: center;
+    margin-left: 10% !important;
+  }
+
+  .cta-cesta p {
+    font-size: 12px;
+    width: 150%;
+    text-align: center;
+    margin-left: 5% !important;
+  }
+
+  .carousel .carousel-item {
+    height: 700px !important;
+  }
+
+  .cta-carousel {
+    width: 150px !important;
+    font-size: 12px;
+    margin-left: -240% !important;
+    margin-bottom: 100%;
+  }
+
+  ol.carousel-indicators li {
+    background: #612423 !important;
+    border-radius: 100% !important;
+    width: 6% !important;
+    height: 0.5px;
+  }
+
+  #stamps_line1 img, #stamps_line2 img{
+    height: 100px;
+    width: 200px;
   }
 }

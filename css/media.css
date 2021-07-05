@@ -37,7 +37,7 @@
   }
 
   #bg img{
-    margin-bottom: -126% !important;
+    margin-bottom: -26% !important;
     position: relative;
   }
 
@@ -67,6 +67,11 @@
     margin-left: 5% !important;
   }
 
+  #carouselExampleFade {
+    background-color: #e6b9b8 !important;
+    margin-top: 6% !important;
+  }
+
   .carousel .carousel-item {
     height: 700px !important;
   }
@@ -85,8 +90,22 @@
     height: 0.5px;
   }
 
-  #stamps_line1 img, #stamps_line2 img{
-    height: 100px;
-    width: 200px;
+  #stories .card-title {
+    width: 290px !important;
+    text-align: center !important;
+    margin-left: -13% !important;
+  }
+
+  .informs {
+    width: 270px;
+    margin-left: -5%;
+  }
+
+  #plans .card {
+    padding: 0px !important;
+  }
+
+  #brasilidade_photo {
+    margin-left: -8% !important;
   }
 }

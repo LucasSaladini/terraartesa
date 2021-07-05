@@ -52,7 +52,7 @@ nav {
 }
 
 #bg img {
-  background-image: url("../images/bg_index.png");
+  background-image: url("../images/Fundo_onda.png");
   background-size: contain;
   width: 100%;
   margin-top: -24%;
@@ -60,7 +60,7 @@ nav {
 }
 
 #bg-after img {
-  background-image: url("../images/bg_index.png");
+  background-image: url("../images/Fundo_onda.png");
   background-size: contain;
   width: 100%;
   transform: rotateX(180deg) rotateY(180deg);

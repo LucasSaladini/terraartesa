@@ -108,4 +108,183 @@
   #brasilidade_photo {
     margin-left: -8% !important;
   }
+
+  #subscribeForm input[type="text"] {
+    color: #542a12;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  #subscribeForm input[type="email"] {
+    color: #542a12;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  #bg img{
+    margin-bottom: -4% !important;
+    position: relative;
+  }
+
+  .carousel-img {
+    width: 250px !important;
+    height: 250px !important;
+    margin-left: 20% !important;
+    margin-top: 10% !important;
+  }
+
+  ol.carousel-indicators li {
+    background: #612423 !important;
+    border-radius: 100% !important;
+    width: 6% !important;
+    height: 0.5px;
+  }
+
+  .cta-cesta {
+    margin-top: 20%;
+  }
+
+  .cta-cesta h2 {
+    font-size: 17px;
+    padding-top: 7% !important;
+    width: 150% !important;
+    text-align: center;
+    margin-left: 20% !important;
+  }
+
+  .cta-cesta p {
+    font-size: 12px;
+    width: 150%;
+    text-align: center;
+    margin-left: 20% !important;
+  }
+
+  .carousel .carousel-item {
+    height: 600px !important;
+  }
+
+  .cta-carousel {
+    width: 150px !important;
+    font-size: 12px;
+    margin-left: -130% !important;
+    margin-bottom: 100%;
+  }
+
+  #brasilidade_photo {
+    margin-left: -2% !important;
+  }
+
+  #subscribeForm input[type="text"] {
+    color: #542a12;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  #subscribeForm input[type="email"] {
+    color: #542a12;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .carousel .carousel-item {
+    height: 580px !important;
+  }
+
+  .carousel-img {
+    width: 250px !important;
+    height: 250px !important;
+    margin-left: 11% !important;
+    margin-top: 10% !important;
+  }
+
+  ol.carousel-indicators li {
+    background: #612423 !important;
+    border-radius: 100% !important;
+    width: 6% !important;
+    height: 0.5px;
+  }
+
+  .cta-cesta h2 {
+    font-size: 17px;
+    padding-top: 7% !important;
+    width: 210% !important;
+    text-align: center;
+    margin-left: -10% !important;
+  }
+
+  .cta-cesta p {
+    font-size: 12px;
+    width: 210%;
+    text-align: center;
+    margin-left: -10% !important;
+  }
+
+  .cta-carousel {
+    width: 150px !important;
+    font-size: 12px;
+    margin-left: -260% !important;
+    margin-bottom: 100%;
+  }
+
+  #bg img{
+    margin-bottom: -27% !important;
+    position: relative;
+  }
+
+  #stories .card-title {
+    width: 100% !important;
+    text-align: center !important;
+    margin-left: 1% !important;
+    font-size: 18px !important;
+  }
+
+  .informs {
+    width: 200px;
+    margin-left: -5%;
+  }
+
+  .purchase-plan {
+    margin: 0px !important;
+  }
+
+  #brasilidade_photo {
+    margin-left: -10% !important;
+  }
+}
+
+@media screen and (max-width:375px) {
+  #bg img{
+    margin-bottom: -4% !important;
+    position: relative;
+  }
+
+  .carousel-img {
+    width: 250px !important;
+    height: 250px !important;
+    margin-left: 20% !important;
+    margin-top: 10% !important;
+  }
+
+  ol.carousel-indicators li {
+    background: #612423 !important;
+    border-radius: 100% !important;
+    width: 6% !important;
+    height: 0.5px;
+  }
+
+  .cta-carousel {
+    width: 150px !important;
+    font-size: 12px;
+    margin-left: -180% !important;
+    margin-bottom: 100%;
+  }
+
+  .informs {
+    width: 285px;
+    margin-left: -5%;
+  }
 }

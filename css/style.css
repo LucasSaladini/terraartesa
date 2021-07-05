@@ -41,11 +41,6 @@ nav {
   text-align: center;
 }
 
-.subscribe {
-  background: #612423;
-  height: 176px;
-  width: 200px;
-}
 
 .subscribe:hover {
   background: #e6b9b8;
@@ -367,11 +362,13 @@ footer h5 {
 #subscribeForm input[type="text"] {
   color: #542a12;
   margin-bottom: 10px;
+  width: 30%;
 }
 
 #subscribeForm input[type="email"] {
   color: #542a12;
   margin-bottom: 10px;
+  width: 30%;
 }
 
 #subscribeForm input[type="button"] {
@@ -395,12 +392,6 @@ footer h5 {
   text-align: center;
 }
 
-.subscribe {
-  background: #612423;
-  height: 176px;
-  margin: -10px -15.5px !important;
-  width: 200px;
-}
 
 .subscribe a {
   margin-top: 20% !important;

@@ -123,72 +123,69 @@
 }
 
 @media only screen and (max-width: 411px) {
-  #bg img{
-    margin-bottom: -4% !important;
-    position: relative;
-  }
-
-  .carousel-img {
-    width: 250px !important;
-    height: 250px !important;
-    margin-left: 20% !important;
-    margin-top: 10% !important;
-  }
-
-  ol.carousel-indicators li {
-    background: #612423 !important;
-    border-radius: 100% !important;
-    width: 6% !important;
-    height: 0.5px;
-  }
-
-  .cta-cesta {
-    margin-top: 20%;
-  }
-
-  .cta-cesta h2 {
-    font-size: 17px;
-    padding-top: 7% !important;
-    width: 150% !important;
-    text-align: center;
-    margin-left: 20% !important;
-  }
-
-  .cta-cesta p {
-    font-size: 12px;
-    width: 150%;
-    text-align: center;
-    margin-left: 20% !important;
-  }
-
-  .carousel .carousel-item {
-    height: 600px !important;
-  }
-
-  .cta-carousel {
-    width: 150px !important;
-    font-size: 12px;
-    margin-left: -130% !important;
-    margin-bottom: 100%;
-  }
-
-  #brasilidade_photo {
-    margin-left: -2% !important;
-  }
-
-  #subscribeForm input[type="text"] {
-    color: #542a12;
-    margin-bottom: 10px;
-    width: 100%;
-  }
+  @media only screen and (max-height: 411px) {
+    .carousel-img {
+      width: 250px !important;
+      height: 250px !important;
+      margin-left: 20% !important;
+      margin-top: 10% !important;
+    }
   
-  #subscribeForm input[type="email"] {
-    color: #542a12;
-    margin-bottom: 10px;
-    width: 100%;
+    ol.carousel-indicators li {
+      background: #612423 !important;
+      border-radius: 100% !important;
+      width: 6% !important;
+      height: 0.5px;
+    }
+  
+    .cta-cesta {
+      margin-top: 20%;
+    }
+  
+    .cta-cesta h2 {
+      font-size: 17px;
+      padding-top: 2% !important;
+      width: 150% !important;
+      text-align: center;
+      margin-left: 20% !important;
+    }
+  
+    .cta-cesta p {
+      font-size: 12px;
+      width: 150%;
+      text-align: center;
+      margin-left: 20% !important;
+    }
+  
+    .carousel .carousel-item {
+      height: 7000px !important;
+    }
+  
+    .cta-carousel {
+      width: 150px !important;
+      font-size: 12px;
+      margin-left: -130% !important;
+      margin-top: 100%;
+    }
+  
+    #brasilidade_photo {
+      margin-left: -2% !important;
+    }
+  
+    #subscribeForm input[type="text"] {
+      color: #542a12;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    
+    #subscribeForm input[type="email"] {
+      color: #542a12;
+      margin-bottom: 10px;
+      width: 100%;
+    }
   }
 }
-
+  
 @media only screen and (max-width: 411px) {
   .carousel .carousel-item {
     height: 580px !important;
@@ -265,7 +262,7 @@
   .carousel-img {
     width: 250px !important;
     height: 250px !important;
-    margin-left: 20% !important;
+    margin-left: 17% !important;
     margin-top: 10% !important;
   }
 
@@ -286,5 +283,269 @@
   .informs {
     width: 285px;
     margin-left: -5%;
+  }
+}
+
+@media screen and (max-width:414px) {
+  #bg img{
+    margin-bottom: -3% !important;
+    position: relative;
+  }
+
+  .carousel .carousel-item {
+    height: 580px !important;
+  }
+
+  .carousel-img {
+    width: 250px !important;
+    height: 250px !important;
+    margin-left: 19% !important;
+    margin-top: 10% !important;
+  }
+
+  .cta-cesta h2 {
+    font-size: 25px;
+    padding-top: 60% !important;
+    width: 210% !important;
+    text-align: center;
+    margin-left: -10% !important;
+  }
+
+  .cta-cesta p {
+    font-size: 12px;
+    width: 210%;
+    text-align: center;
+    margin-left: -10% !important;
+  }
+
+  ol.carousel-indicators li {
+    background: #612423 !important;
+    border-radius: 100% !important;
+    width: 6% !important;
+    height: 0.5px;
+  }
+
+  .cta-carousel {
+    width: 150px !important;
+    font-size: 12px;
+    margin-left: -130% !important;
+    margin-bottom: 100%;
+  }
+
+  .informs {
+    width: 285px;
+    margin-left: -5%;
+  }
+
+  #brasilidade_photo {
+    margin-left: -2% !important;
+  }
+
+  #subscribeForm input[type="text"] {
+    color: #542a12;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  #subscribeForm input[type="email"] {
+    color: #542a12;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:375px) {
+  #bg img{
+    margin-bottom: -3% !important;
+    position: relative;
+  }
+
+  .carousel .carousel-item {
+    height: 580px !important;
+  }
+
+  .carousel-img {
+    width: 250px !important;
+    height: 250px !important;
+    margin-left: 19% !important;
+    margin-top: 10% !important;
+  }
+
+  .cta-cesta h2 {
+    font-size: 25px;
+    padding-top: 60% !important;
+    width: 210% !important;
+    text-align: center;
+    margin-left: -10% !important;
+  }
+
+  .cta-cesta p {
+    font-size: 12px;
+    width: 210%;
+    text-align: center;
+    margin-left: -10% !important;
+  }
+
+  ol.carousel-indicators li {
+    background: #612423 !important;
+    border-radius: 100% !important;
+    width: 6% !important;
+    height: 0.5px;
+  }
+
+  .cta-carousel {
+    width: 150px !important;
+    font-size: 12px;
+    margin-left: -130% !important;
+    margin-bottom: 100%;
+  }
+
+  .informs {
+    width: 285px;
+    margin-left: -5%;
+  }
+
+  #brasilidade_photo {
+    margin-left: -2% !important;
+  }
+
+  #subscribeForm input[type="text"] {
+    color: #542a12;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  #subscribeForm input[type="email"] {
+    color: #542a12;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #bg img{
+    width: 100%;
+    margin-bottom: -2%;
+  }
+
+  ol.carousel-indicators li {
+    background: #612423 !important;
+    border-radius: 100% !important;
+    width: 3% !important;
+    height: 0.5px;
+  }
+
+  .carousel-img {
+    width: 270px !important;
+    height: 270px !important;
+    margin-left: 63% !important;
+    margin-top: 10% !important;
+  }
+
+  .cta-cesta h2 {
+    font-size: 30px;
+    margin-top: -70% !important;
+    width: 130% !important;
+    margin-left: -10% !important;
+  }
+
+  .cta-cesta p {
+    font-size: 18px;
+    width: 120%;
+    margin-left: -10% !important;
+  }
+
+  #stories img {
+    margin-top: -15% !important;
+  }
+
+  #stories .card-title {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 15px !important;
+  }
+
+  #stories .card img {
+    height: 170px !important;
+    width: 170px !important;
+  }
+
+  #stories #second {
+    height: 170px !important;
+    width: 170px !important;
+    margin-top: -50% !important;
+  }
+
+  #stories #first {
+    height: 170px !important;
+    width: 170px !important;
+    margin-top: -220% !important;
+  }
+
+  #plans-main .card-title {
+    font-size: 15px !important;
+    width: 100% !important;
+  }
+
+  #plans-main  #set-up {
+    font-size: 12px !important;
+  }
+
+  #brasilidade_photo {
+    margin-left: -2% !important;
+  }
+
+  #subscribeForm input[type="text"] {
+    color: #542a12;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  #subscribeForm input[type="email"] {
+    color: #542a12;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  @media only screen and (max-height: 1366px) {
+    #stories #first {
+      height: 230px !important;
+      width: 230px !important;
+      margin-top: -80% !important;
+    }
+
+    #stories .card-title {
+      width: 100% !important;
+      text-align: center !important;
+      font-size: 21px !important;
+    }
+
+    #stories .card img {
+      height: 230px !important;
+      width: 230px !important;
+    }
+
+    #plans-main .card-title {
+      font-size: 20px !important;
+      width: 100% !important;
+    }
+
+    #brasilidade_photo {
+      margin-left: -2% !important;
+    }
+  
+    #subscribeForm input[type="text"] {
+      color: #542a12;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    
+    #subscribeForm input[type="email"] {
+      color: #542a12;
+      margin-bottom: 10px;
+      width: 100%;
+    }
   }
 }

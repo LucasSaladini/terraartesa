@@ -19,6 +19,7 @@
   }
 }
 
+/*Index*/
 @media only screen and (max-width: 360px) {
   #carouselExampleFade {
     margin-top: 200px;
@@ -123,7 +124,7 @@
 }
 
 @media only screen and (max-width: 411px) {
-  @media only screen and (max-height: 411px) {
+  @media only screen and (max-height: 731px) {
     .carousel-img {
       width: 250px !important;
       height: 250px !important;
@@ -549,3 +550,35 @@
     }
   }
 }
+
+/*About*/
+@media only screen and (max-width:360px) {
+  #about {
+    height: 700px;
+  }
+  
+  #text_about {
+  font-size: 10px;
+  margin-top: 90%;
+  }
+
+  #pic_about {
+    margin-top: -305% !important;
+    margin-left: 7% !important;
+    height: 250px !important;
+    width: 250px !important;
+  }
+
+  #subscribeForm input[type="text"] {
+    color: #542a12;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  #subscribeForm input[type="email"] {
+    color: #542a12;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+

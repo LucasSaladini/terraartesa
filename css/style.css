@@ -392,6 +392,12 @@ footer h5 {
   text-align: center;
 }
 
+.subscribe {
+  background: #612423;
+  height: 176px;
+  width: 200px;
+  margin: -10px -15.5px !important;
+}
 
 .subscribe a {
   margin-top: 20% !important;

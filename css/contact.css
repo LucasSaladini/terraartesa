@@ -32,10 +32,6 @@ textarea {
   transition: all 0.5s ease;
 }
 
-.faq_main {
-  margin-left: 3%;
-}
-
 .faq_title,
 .faq_subtitle {
   color: #612423;

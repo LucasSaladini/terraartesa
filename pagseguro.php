@@ -33,9 +33,31 @@
     <title>Teste PagSeguro</title>
 </head>
 <body>
+  <div class="cart">
+    Você tem X produtos no carrinho
+  </div>
+  <div class="product">
+    <div class="product_title"></div>
+    <div class="product_image"></div>
+    <div class="product_desc"></div>
+    <div class="product_btn"></div>
+  </div>
+
     <form action="controllers/controllerOrder.php" id="buyForm" name="buyForm" method="post">
       <input type="hidden" name="cardHash" id="cardHash">
       <input type="hidden" name="cardToken" id="cardToken">
+      <?php
+        $conn = new PDO("mysql:host=localhost;dbname=cart", "root", "");
+        $crud = $conn->prepare("SELECT * FROM `cart`");
+        $crud->execute();
+
+        $final_value = 0;
+        
+        while($fetch = $crud->fetch(PDO::FETCH_ASSOC)) {
+          $final_value = $final_value + ($fetch['quantity'] * $fetch['value']);
+        }
+      ?>
+      <input type="hidden" name="total" id="total" value="<?php echo $final_value ?>">
       <!-- Buyer details -->
       <div class="row">
         <div class="col-6">

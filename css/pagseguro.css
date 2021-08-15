@@ -48,3 +48,32 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+.product {
+  display: inline-block;
+  width: 20%;
+  margin: 10px 2.5%;
+}
+
+.product_title {
+  width: 100%;
+  background: #333;
+  margin: 10px;
+}
+
+.product_image {
+  padding: 10px 40px;
+}
+
+.product_image img {
+  max-width: 100%;
+}
+
+.product_desc {
+  font-size: 16px;
+  text-align: center;
+}
+
+.product_btn {
+  text-align: center;
+}

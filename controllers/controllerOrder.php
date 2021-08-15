@@ -26,10 +26,20 @@
     $Data["paymentMethod"]="creditCard";
     $Data["receiverEmail"]=Email_Pagseguro;
     $Data["currency"]="BRL";
-    $Data["itemId1"] = 1;
-    $Data["itemDescription1"] = 'Website';
-    $Data["itemAmount1"] = '500.00';
-    $Data["itemQuantity1"] = 1;
+
+    $conn = new PDO("mysql:host=localhost;dbname=cart", "root", "");
+    $crud = $conn->prepare("SELECT * FROM `cart`");
+    $crud->execute();
+
+    $i = 1;
+    while($fetch = $crud->fetch(PDO::FETCH_ASSOC)) {
+        $Data["itemId{$i}"] = $fetch['id'];
+        $Data["itemDescription{$i}"] = $fetch['description'];
+        $Data["itemAmount{$i}"] = $fetch['value'];
+        $Data["itemQuantity{$i}"] = $fetch['quantity'];
+        $i++;
+    }
+
     $Data["notificationURL="]="https://www.meusite.com.br/notificacao.php";
     $Data["reference"]="83783783737";
     $Data["senderName"]=$buyerName;

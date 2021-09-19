@@ -490,16 +490,15 @@ ol.carousel-indicators li {
   background: #e6b9b8;
   margin-top: 3%;
   height: inherit;
-  padding-bottom: 5% !important;
 }
 
 #brasilidade h1 {
   text-transform: uppercase;
   color: #612423;
+  padding-top: 5% !important;
 }
 
 #brasilidade .brasilidade_title {
-  padding-top: 6%;
   font-size: 35px;
   padding-bottom: 3%;
 }
@@ -507,6 +506,12 @@ ol.carousel-indicators li {
 #brasilidade p {
   color: #612423;
   font-size: 18px;
+}
+
+#brasilidade p:first-child {
+  color: #612423;
+  font-size: 18px;
+  padding-top: 19% !important;
 }
 
 #brasilidade img {

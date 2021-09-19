@@ -94,9 +94,6 @@
     <!-- End Navbar -->
 
     <!-- Contact -->
-    <h1 class="text-center col-12 pt-5 pb-2 title_contact">
-      Está com dúvidas ou dificuldades?
-    </h1>
     <h3 class="text-center col-12 pb-5 subtitle_contact">
       Não hesite em falar conosco!
     </h3>
@@ -169,11 +166,11 @@
         <!-- FAQ -->
         <div class="col-12 col-xl-12 justify-content-center faq_main">
           <div class="panel-group col-12 col-xl-12" id="accordion">
-            <h1 class="text-center col-12 col-xl-12 faq_title">
-              Está com dúvidas?
-            </h1>
-            <h3 class="text-center col-12 col-xl-12 mb-5 faq_subtitle">
-              Aqui estão as perguntas mais frequentes?
+            <h3
+              class="text-center col-12 col-xl-12 mb-5 faq_subtitle"
+              style="text-transform: uppercase"
+            >
+              Perguntas mais frequentes
             </h3>
             <div class="panel panel-default">
               <div class="panel-heading">
@@ -275,18 +272,16 @@
     <footer>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-sm-12 col-xl-12 col-sm-6">
+          <div class="col-lg-5 col-md-5 col-sm-4 col-xs-12">
             <h2>Dúvidas Frequentes</h2>
             <p>
               Está com dúvidas? <a href="#">Clique aqui</a> e tire todas suas
               dúvidas
             </p>
           </div>
-        </div>
-        <div class="d-flex bd-highlight row">
-          <div class="flex-grow-1 bd-highlight col-sm-12">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <h2>Fale Conosco</h2>
-            <div class="row col-12 col-sm-12 col-xl-12 col-sm-12">
+            <div class="row col-9 col-sm-9 col-xl-9 col-sm-9">
               <img src="images/at.png" alt="" />
               <p class="contact-footer">
                 <a href="mailto:terra.artesa@gmail.com"
@@ -294,7 +289,7 @@
                 >
               </p>
             </div>
-            <div class="row col-12 col-sm-12 col-xl-12 col-sm-12">
+            <div class="row col-9 col-sm-9 col-xl-9 col-sm-9">
               <img src="images/logo-do-facebook.png" alt="" />
               <p class="contact-footer">
                 <a href="https://www.facebook.com/terra.artesa/" target="_blank"
@@ -302,7 +297,7 @@
                 >
               </p>
             </div>
-            <div class="row col-12 col-sm-12 col-xl-12 col-sm-12">
+            <div class="row col-9 col-sm-9 col-xl-9 col-sm-9">
               <img src="images/instagram.png" alt="" />
               <p class="contact-footer">
                 <a
@@ -311,24 +306,15 @@
                   >@terra_artesaa</a
                 >
               </p>
-              <p></p>
             </div>
           </div>
-          <div
-            class="
-              p-2
-              mx-auto
-              col-12 col-sm-12 col-xl-12
-              bd-highlight
-              susbcribe-container
-            "
-          >
+          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
             <h2>Não Perca Nenhuma Cesta</h2>
             <div class="status"></div>
             <form action="#" id="subscribeForm" method="post">
               <input
                 type="text"
-                name=""
+                name="name"
                 id="name"
                 class="form-control"
                 placeholder="Seu nome"
@@ -337,7 +323,7 @@
               <span class="text-danger hidden" id="nameError"></span>
               <input
                 type="email"
-                name=""
+                name="email"
                 id="email"
                 class="form-control"
                 placeholder="Seu melhor e-mail"
@@ -347,44 +333,28 @@
               <input type="button" id="subscribe" value="Inscrever-se" />
             </form>
           </div>
-        </div>
-        <!--<div class="row">
-            <div class="col-12 text-center">
-              <h3>Todos os direitos reservados</h3>
-              <div class="col-6">
-                <h3 class="row text-center mx-auto">
-                  2021 -
-                  <script>
-                    document.write(new Date().getFullYear())
-                  </script>
-                </h3>
-              </div>
+            <div class="col-12 col-xl-12 col-sm-12 mt-5 text-center">
+              <h5>Todos os direitos reservados</h5>
             </div>
-          </div>-->
-        <div class="row">
-          <div class="col-12 col-xl-12 col-sm-12 text-center">
-            <h5>Todos os direitos reservados</h5>
+            <div class="col-12 col-xl-12 col-sm-12 text-center">
+              <h5>
+                Terra Artesã 2021 -
+                <script>
+                  document.write(new Date().getFullYear())
+                </script>
+              </h5>
+            </div>
+          <div class="col-xl-12 col-sm-12 mt-3">
+            <p class="text-center">
+              Feito com &#10084; por
+              <a href="https://portfolio.lucassaladini.vercel.app" target="_blank"
+                >Lucas Saladini</a
+              >
+            </p>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-xl-12 col-sm-12 text-center">
-            <h5>
-              Terra Artesã 2021 -
-              <script>
-                document.write(new Date().getFullYear())
-              </script>
-            </h5>
-          </div>
-        </div>
-        <div class="col-xl-12 col-sm-12 mt-3">
-          <p class="text-center">
-            Feito com &#10084; por
-            <a href="https://portfolio.lucassaladini.vercel.app" target="_blank"
-              >Lucas Saladini</a
-            >
-          </p>
         </div>
       </div>
+    </div>
     </footer>
     <!-- End Footer -->
 

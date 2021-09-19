@@ -4,8 +4,7 @@ body {
 
 .brasilidade_text {
   color: #612423;
-  line-height: 30px;
-  letter-spacing: 1px;
+  line-height: 23px;
   font-size: 20px;
 }
 
@@ -13,7 +12,7 @@ body {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(12, 5vw);
-  grid-gap: 1.5rem;
+  grid-gap: 1rem;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -76,7 +75,7 @@ body {
 
 .institutions {
   color: #612423;
-  font-size: 50px !important;
+  font-size: 30px !important;
 }
 
 .gallery__2 {
@@ -104,35 +103,35 @@ body {
 
 .gallery__2__item--2 {
   grid-column-start: 5;
-  grid-column-end: 8;
+  grid-column-end: 7;
   grid-row-start: 1;
-  grid-row-end: 6;
+  grid-row-end: 4;
 }
 
 .gallery__2__item--3 {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 3;
   grid-row-start: 5;
   grid-row-end: 8;
 }
 
 .gallery__2__item--4 {
   grid-column-start: 5;
-  grid-column-end: 9;
+  grid-column-end: 8;
   grid-row-start: 6;
   grid-row-end: 9;
 }
 
 .gallery__2__item--5 {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 2;
   grid-row-start: 8;
-  grid-row-end: 11;
+  grid-row-end: 10;
 }
 
 .gallery__2__item--6 {
   grid-column-start: 1;
   grid-column-end: 8;
   grid-row-start: 11;
-  grid-row-end: 15;
+  grid-row-end: 11;
 }

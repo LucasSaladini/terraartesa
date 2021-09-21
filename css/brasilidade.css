@@ -85,9 +85,9 @@ body {
 .gallery__2 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(15, 5vw);
-  grid-gap: 1.5rem;
-  margin-left: 3%;
+  grid-template-rows: repeat(12, 4vw);
+  grid-gap: 0.5rem;
+  margin-left: 30%;
   margin-right: 3%;
 }
 
@@ -100,16 +100,16 @@ body {
 
 .gallery__2__item--1 {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 5;
   grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-end: 5;
 }
 
 .gallery__2__item--2 {
   grid-column-start: 5;
   grid-column-end: 7;
   grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-end: 5;
 }
 
 .gallery__2__item--3 {
@@ -120,22 +120,22 @@ body {
 }
 
 .gallery__2__item--4 {
-  grid-column-start: 5;
-  grid-column-end: 8;
-  grid-row-start: 6;
-  grid-row-end: 9;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 8;
 }
 
 .gallery__2__item--5 {
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 3;
   grid-row-start: 8;
   grid-row-end: 10;
 }
 
 .gallery__2__item--6 {
-  grid-column-start: 1;
-  grid-column-end: 8;
-  grid-row-start: 11;
-  grid-row-end: 11;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 12;
 }

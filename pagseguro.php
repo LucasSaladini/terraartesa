@@ -58,6 +58,7 @@
         }
       ?>
       <input type="hidden" name="total" id="total" value="<?php echo $final_value ?>">
+      
       <!-- Buyer details -->
       <div class="row">
         <div class="col-6">
